@@ -1,2 +1,5 @@
-# Deneb-Vega-Templates
-Deneb Vega Templates for FT Visual Vocabulary chart types
+# Deneb Vega Templates
+
+Project inspired by FT Visual Vocabulary (https://ft.com/vocabulary).
+
+Deneb Vega Templates for all [under development] FT Visual Vocabulary chart types.
