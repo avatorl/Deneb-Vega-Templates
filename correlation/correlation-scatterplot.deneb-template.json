@@ -1,0 +1,216 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.0.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Correlation - Scatterplot",
+      "description": "[No Description Provided]",
+      "author": "[No Author Details Provided]",
+      "uuid": "af0c29df-d901-4e96-b61a-9200284d43bf",
+      "generated": "2023-04-24T11:45:18.982Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value X",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value Y",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ]
+  },
+  "config": {},
+  "description": "Correlation - Scatterplot",
+  "width": 400,
+  "height": 400,
+  "padding": 10,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Scatterplot"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show relationship between two variables"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "fillColorCircle",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "colorLabel",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset-csv",
+      "url": "https://dl.dropboxusercontent.com/s/xshyw914nuw4emf/data3.csv",
+      "format": {
+        "type": "csv",
+        "parse": "auto",
+        "delimiter": ","
+      }
+    },
+    {"name": "dataset"}
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "__2__"
+      },
+      "range": "height"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": 20,
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": 10,
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "symbol-data-circles",
+      "type": "symbol",
+      "shape": "circle",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__2__"
+          },
+          "size": {"value": 500},
+          "fill": {
+            "signal": "fillColorCircle"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "symbol-data-circles"
+      },
+      "encode": {
+        "enter": {
+          "x": {"signal": "datum.x"},
+          "y": {"signal": "datum.y"},
+          "dy": {"signal": "48"},
+          "text": {
+            "signal": "datum.datum['__0__']"
+          },
+          "fontSize": {
+            "signal": "labelFontSize"
+          },
+          "align": {"value": "right"},
+          "fill": {
+            "signal": "colorLabel"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "label",
+          "avoidMarks": [
+            "symbol-data-circles"
+          ],
+          "anchor": [
+            "top",
+            "bottom",
+            "right",
+            "left"
+          ],
+          "offset": [2],
+          "size": {
+            "signal": "[width+10, height]"
+          }
+        }
+      ]
+    }
+  ]
+}
