@@ -1,0 +1,343 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.0.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Deviation - Diverging Stacked Bar Chart",
+      "description": "[No Description Provided]",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "a5abdc48-6ca7-47fe-87fe-7bfbd576da33",
+      "generated": "2023-04-24T10:23:59.340Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Characteristic",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Score",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Sort",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Author": "Andrzej Leszkewicz"
+  },
+  "config": {},
+  "description": "Deviation - Diverging Stacked Bar Chart",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Diverging Stacked Bar Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "For presenting survey responses that convey sentiments"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "zeroLineColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {
+      "name": "categoryLabelOffset",
+      "value": -100
+    },
+    {"name": "labelOffset", "value": 5},
+    {
+      "name": "barWidth",
+      "description": "Bar width, band [0.0-1.0]",
+      "value": 0.8
+    }
+  ],
+  "data": [
+    {
+      "name": "data-score-offset-weight",
+      "values": [
+        {
+          "key": "Strongly Disagree",
+          "value": 0
+        },
+        {"key": "Disagree", "value": 0},
+        {
+          "key": "Undecided",
+          "value": -0.5
+        },
+        {"key": "Agree", "value": 0},
+        {
+          "key": "Strongly Agree",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "collect",
+          "sort": {
+            "field": "__3__",
+            "order": "ascending"
+          }
+        },
+        {
+          "type": "lookup",
+          "from": "data-score-offset-weight",
+          "key": "key",
+          "values": ["value"],
+          "fields": ["__1__"],
+          "as": ["offset_weight"]
+        },
+        {
+          "type": "stack",
+          "groupby": ["__0__"],
+          "sort": {
+            "field": "__3__",
+            "order": "descending"
+          },
+          "field": "__2__",
+          "as": ["start", "end"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.offset_weight*(50-datum.end-datum.start)-12.5",
+          "as": "offset"
+        },
+        {
+          "type": "window",
+          "groupby": ["__0__"],
+          "sort": {
+            "field": "__0__",
+            "order": "ascending"
+          },
+          "frame": [null, null],
+          "ops": ["sum"],
+          "fields": ["offset"],
+          "as": ["offset"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.start-datum.offset",
+          "as": "start"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.end-datum.offset",
+          "as": "end"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["start", "end"]
+      },
+      "range": [
+        {"signal": "width"},
+        {"signal": "0"}
+      ]
+    },
+    {
+      "name": "scaleY",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "height",
+      "padding": 0.2
+    },
+    {
+      "name": "scaleColor",
+      "type": "ordinal",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [
+        {"signal": "barColor2"},
+        {"signal": "barColor2"},
+        {"signal": "'gray'"},
+        {"signal": "barColor1"},
+        {"signal": "barColor1"}
+      ]
+    },
+    {
+      "name": "scaleOpacity",
+      "type": "ordinal",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [
+        {"signal": "1"},
+        {"signal": "0.75"},
+        {"signal": "0.5"},
+        {"signal": "0.75"},
+        {"signal": "1"}
+      ]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": 10,
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": 10,
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "scaleY",
+      "offset": {"signal": "100"},
+      "labels": true,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelAlign": "left",
+      "ticks": false,
+      "domain": false
+    }
+  ],
+  "marks": [
+    {
+      "name": "rule-zero-line",
+      "type": "rule",
+      "encode": {
+        "enter": {
+          "x": {"signal": "width/2"},
+          "x2": {"signal": "width/2"},
+          "y": {"signal": "0"},
+          "y2": {"signal": "height"},
+          "stroke": {
+            "signal": "zeroLineColor"
+          },
+          "strokeWidth": {
+            "signal": "0.5"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-data-bars",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "field": "start"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "end"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__"
+          },
+          "height": {
+            "signal": "bandwidth('scaleY')*barWidth"
+          },
+          "fill": {
+            "scale": "scaleColor",
+            "field": "__1__"
+          },
+          "opacity": {
+            "scale": "scaleOpacity",
+            "field": "__1__"
+          }
+        }
+      }
+    }
+  ]
+}
