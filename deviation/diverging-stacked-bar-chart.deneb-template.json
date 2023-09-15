@@ -1,0 +1,356 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Deviation - Diverging Stacked Bar Chart",
+      "description": "For presenting survey responses that convey sentiments",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "32d2b501-e7af-4ab8-b0b6-be26eb03f985",
+      "generated": "2023-09-15T11:00:20.779Z"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name - Axis Y",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Characteristic",
+        "description": "Sentiment (for example, 'Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree')",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Score",
+        "description": "Score (absolute or %)",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Sort",
+        "description": "Defines sorting order for Characteristic (for example -2,-1,0,1,2 for 'Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree')",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Deviation - Diverging Stacked Bar Chart. For presenting survey responses that convey sentiments.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Diverging Stacked Bar Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "For presenting survey responses that convey sentiments"
+    },
+    {
+      "name": "barColor1",
+      "description": "Right side color (positive sentiment)",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "description": "Left  side color (negative sentiment)",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "barColor3",
+      "description": "Middle color (neutral sentiment)",
+      "init": "'grey'"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "zeroLineColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {
+      "name": "barWidth",
+      "description": "Bar width, band [0.0-1.0]",
+      "value": 0.8
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "labelAreaWidth",
+      "description": "Width of the area for Axis Y labels, px",
+      "value": 120
+    },
+    {
+      "name": "axisStrokeWidth",
+      "description": "width of Axis domain line, px",
+      "value": 0.5
+    },
+    {
+      "name": "scaleYPadding",
+      "description": "Padding between categories, band [0.0-1.0]",
+      "value": 0.2
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "collect",
+          "sort": {
+            "field": "__3__",
+            "order": "ascending"
+          }
+        },
+        {
+          "type": "stack",
+          "groupby": ["__0__"],
+          "offset": "normalize",
+          "sort": {
+            "field": "__3__",
+            "order": "ascending"
+          },
+          "field": "__2__",
+          "as": ["start0", "end0"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__3__']<0?-1:datum['__3__']==0?-0.5:0",
+          "as": "offset_weight"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.offset_weight*(datum.end0-datum.start0)",
+          "as": "offset"
+        },
+        {
+          "type": "window",
+          "groupby": ["__0__"],
+          "sort": {
+            "field": "__0__",
+            "order": "ascending"
+          },
+          "frame": [null, null],
+          "ops": ["sum"],
+          "fields": ["offset"],
+          "as": ["offset"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.start0+datum.offset",
+          "as": "start"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.end0+datum.offset",
+          "as": "end"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": [-1, 1],
+      "range": [
+        {"signal": "labelAreaWidth"},
+        {"signal": "width"}
+      ]
+    },
+    {
+      "name": "scaleY",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "height",
+      "padding": {
+        "signal": "scaleYPadding"
+      }
+    },
+    {
+      "name": "scaleColor",
+      "type": "ordinal",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [
+        {"signal": "barColor2"},
+        {"signal": "barColor2"},
+        {"signal": "barColor3"},
+        {"signal": "barColor1"},
+        {"signal": "barColor1"}
+      ]
+    },
+    {
+      "name": "scaleOpacity",
+      "type": "ordinal",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [
+        {"signal": "1"},
+        {"signal": "0.75"},
+        {"signal": "0.5"},
+        {"signal": "0.75"},
+        {"signal": "1"}
+      ]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "scaleY",
+      "labels": true,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelAlign": "left",
+      "ticks": false,
+      "domain": false
+    }
+  ],
+  "marks": [
+    {
+      "name": "rule-zero-line",
+      "type": "rule",
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "labelAreaWidth+(width-labelAreaWidth)/2"
+          },
+          "x2": {
+            "signal": "labelAreaWidth+(width-labelAreaWidth)/2"
+          },
+          "y": {"signal": "0"},
+          "y2": {"signal": "height"},
+          "stroke": {
+            "signal": "zeroLineColor"
+          },
+          "strokeWidth": {
+            "signal": "axisStrokeWidth"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-data-bars",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "field": "start"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "end"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__"
+          },
+          "height": {
+            "signal": "bandwidth('scaleY')*barWidth"
+          },
+          "fill": {
+            "scale": "scaleColor",
+            "field": "__1__"
+          },
+          "opacity": {
+            "scale": "scaleOpacity",
+            "field": "__1__"
+          }
+        }
+      }
+    }
+  ]
+}
