@@ -45,7 +45,7 @@
     "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
   },
   "config": {},
-  "description": "Deviation - Diverging Bar Chart",
+  "description": "Deviation - Diverging Bar Chart. For handling both negative and positive magnitude values.",
   "padding": 15,
   "autosize": "fit",
   "background": "white",
