@@ -8,3 +8,8 @@ Proportional Symbol - To show absolute values on a map
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/f9c6f597-c0dc-4207-80f6-a7c0ed6ea153)
 
+Flow Map - To show movements accross map
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a6f970d5-33b7-4432-a6d0-002d7c850f1a)
+
+
