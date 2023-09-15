@@ -37,7 +37,12 @@
         "type": "numeric",
         "kind": "column"
       }
-    ]
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkiewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
   },
   "config": {},
   "description": "Spatial - Equalised Cartogram. To show values for different sized regions.",
