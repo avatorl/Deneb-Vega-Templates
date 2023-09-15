@@ -24,9 +24,9 @@ Scaled Cartogram
 
 [missing. a geojson file is required to implement]
 
-Dot Density
+Dot Density - To show individual locations on a map
 
-[TBD]
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/bf6a7df0-0da7-4dc7-b959-ee4460cc3d96)
 
 Heat Map - To show data values using color intensity
 
