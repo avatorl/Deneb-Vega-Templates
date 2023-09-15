@@ -1,5 +1,11 @@
 # Deneb Vega Templates by Andrzej Leszkiewicz
 
+Chart templates for Deneb (custom visual for Power BI). Developed using Vega (not Vega-Lite) visualization grammar.
+
+Author: Andrzej Leszkiewicz
+
+Project inspired (chart types) by [FT Visual Vocabulary](https://ft.com/vocabulary)
+
 ## Sponsorship
 
 If you have used the code for a commercial project or if you just want to say thank you, feel free to click the Sponsor button.
