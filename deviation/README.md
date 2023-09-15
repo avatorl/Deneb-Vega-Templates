@@ -14,7 +14,8 @@ Back-To-Back Bar Chart - For comparing two sets of values
 
 Surplus/Deficit Filled Line Chart - To show balance against a baseline or between 2 series
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/499726c0-ccab-4076-bc37-d7f8ba04a61c)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/080b6280-831b-47a0-8f4a-649b55fc95a9)
+
 
 
 
