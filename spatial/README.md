@@ -12,4 +12,9 @@ Flow Map - To show movements accross map
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a6f970d5-33b7-4432-a6d0-002d7c850f1a)
 
+Contour Map - To show areas of equal value on a map
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1d7a6567-10a0-4b41-8dc6-d2e088d4a2d9)
+
+
 
