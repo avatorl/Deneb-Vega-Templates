@@ -39,12 +39,9 @@
       }
     ],
     "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
     "Author": "Andrzej Leszkewicz",
     "License": "CC BY 4.0 (Share and Adapt with Attribution)",
-    "Webiste": "https://powerofbi.org",
-    "Twitter": "https://twitter.com/avatorl",
-    "LinkedIn": "https://www.linkedin.com/in/avatorl/",
-    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
     "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
   },
   "config": {},
