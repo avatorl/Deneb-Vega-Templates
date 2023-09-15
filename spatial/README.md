@@ -20,6 +20,14 @@ Equalised Cartogram - To show values for different sized regions
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/5118fa9f-2ab5-4edc-b101-213a0db48575)
 
+Scaled Cartogram
+
+[missing. a geojson file is required to implement]
+
+Dot Density
+
+[TBD]
+
 Heat Map - To show data values using color intensity
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/4d6f8194-3713-413a-9c08-a1d0d75b8996)
