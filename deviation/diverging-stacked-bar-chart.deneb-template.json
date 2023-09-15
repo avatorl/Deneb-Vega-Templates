@@ -18,8 +18,9 @@
       "name": "Deviation - Diverging Stacked Bar Chart",
       "description": "For presenting survey responses that convey sentiments",
       "author": "Andrzej Leszkiewicz",
-      "uuid": "32d2b501-e7af-4ab8-b0b6-be26eb03f985",
-      "generated": "2023-09-15T11:00:20.779Z"
+      "uuid": "3aeca6ff-02a3-4b9c-a587-fc46a6773b86",
+      "generated": "2023-09-15T11:28:59.060Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
     },
     "dataset": [
       {
@@ -53,7 +54,7 @@
     ],
     "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
     "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
-    "Author": "Andrzej Leszkewicz",
+    "Author": "Andrzej Leszkiewicz",
     "License": "CC BY 4.0 (Share and Adapt with Attribution)",
     "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
   },
@@ -285,6 +286,7 @@
     {
       "orient": "left",
       "scale": "scaleY",
+      "offset": {"signal": "0"},
       "labels": true,
       "labelFontSize": {
         "signal": "labelFontSize"
@@ -294,32 +296,21 @@
       },
       "labelAlign": "left",
       "ticks": false,
-      "domain": false
-    }
-  ],
-  "marks": [
-    {
-      "name": "rule-zero-line",
-      "type": "rule",
       "encode": {
-        "enter": {
-          "x": {
-            "signal": "labelAreaWidth+(width-labelAreaWidth)/2"
-          },
-          "x2": {
-            "signal": "labelAreaWidth+(width-labelAreaWidth)/2"
-          },
-          "y": {"signal": "0"},
-          "y2": {"signal": "height"},
-          "stroke": {
-            "signal": "zeroLineColor"
-          },
-          "strokeWidth": {
-            "signal": "axisStrokeWidth"
+        "domain": {
+          "update": {
+            "strokeWidth": {
+              "signal": "axisStrokeWidth"
+            },
+            "x": {
+              "signal": "labelAreaWidth+(width-labelAreaWidth)/2"
+            }
           }
         }
       }
-    },
+    }
+  ],
+  "marks": [
     {
       "name": "rect-data-bars",
       "type": "rect",
