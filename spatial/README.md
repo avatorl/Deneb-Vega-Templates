@@ -16,5 +16,10 @@ Contour Map - To show areas of equal value on a map
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1d7a6567-10a0-4b41-8dc6-d2e088d4a2d9)
 
+Equalised Cartogram - To show values for different sized regions
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/5118fa9f-2ab5-4edc-b101-213a0db48575)
+
+
 
 
