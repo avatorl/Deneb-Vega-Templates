@@ -1,0 +1,244 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Deviation - Surplus/Deficit Filled Line Chart",
+      "description": "To show balance against a baseline or between 2 series.",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "42352bed-456c-4546-ae07-aef3509fcae8",
+      "generated": "2023-09-15T11:46:44.949Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Date",
+        "description": "date-time - Axis X",
+        "type": "dateTime",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Difference",
+        "description": "variance (positive/negative values) - Axis Y",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Deviation - Surplus/Deficit Filled Line Chart. To show balance against a baseline or between 2 series.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Surplus/Deficit Filled Line Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show balance against a baseline or between 2 series"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "surplus",
+          "expr": "max(datum['__1__'], 0)"
+        },
+        {
+          "type": "formula",
+          "as": "deficit",
+          "expr": "min(datum['__1__'], 0)"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "time",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": "height"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "scaleY",
+      "labels": true,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "ticks": true
+    },
+    {
+      "orient": "bottom",
+      "scale": "scaleX",
+      "labels": true,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelOverlap": true,
+      "ticks": true
+    }
+  ],
+  "marks": [
+    {
+      "name": "area-surplus",
+      "type": "area",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "surplus"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "signal": "0"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    },
+    {
+      "name": "area-deficit",
+      "type": "area",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "deficit"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "signal": "0"
+          },
+          "fill": {
+            "signal": "barColor2"
+          }
+        }
+      }
+    }
+  ]
+}
