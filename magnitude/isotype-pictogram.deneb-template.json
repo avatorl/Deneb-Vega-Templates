@@ -1,0 +1,205 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.4.0.20220831#4f0615e",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.22.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Ranking - Isotype (pictogram)",
+      "description": "To compare whole numbers",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "f5ac690c-ab77-40e7-a220-e61abf3d2f69",
+      "generated": "2023-09-16T15:34:08.821Z"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Id",
+        "description": "Unique object Id",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Ranking - Isotype (pictogram). To compare whole numbers.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Isotype (pictogram)"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To compare whole numbers"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {"name": "labelOffset", "value": 5},
+    {
+      "name": "shapeSVG",
+      "value": "M46,17.222C46,7.711,38.165,0,28.5,0S11,7.711,11,17.222C11,17.222,27.771,25.116,46,17.222z M11,51.291c-0.117,0-0.236-0.021-0.352-0.064c-0.517-0.194-0.778-0.771-0.584-1.288l5-13.29 c0.194-0.517,0.772-0.777,1.288-0.584c0.517,0.194,0.778,0.771,0.584,1.288l-5,13.29C11.785,51.043,11.404,51.291,11,51.291z M48,51.291c-0.404,0-0.785-0.248-0.936-0.648l-5-13.29c-0.194-0.517,0.067-1.094,0.584-1.288 c0.514-0.192,1.094,0.067,1.288,0.584l5,13.29c0.194,0.517-0.067,1.094-0.584,1.288C48.236,51.27,48.117,51.291,48,51.291z M23.001,56c-0.045,0-0.091-0.003-0.137-0.009c-0.547-0.075-0.93-0.579-0.855-1.126l1.97-14.446 c0.075-0.547,0.582-0.928,1.126-0.855c0.547,0.075,0.93,0.579,0.855,1.126l-1.97,14.446C23.922,55.636,23.494,56,23.001,56z M35.999,56c-0.492,0-0.921-0.363-0.989-0.865l-1.97-14.446c-0.075-0.547,0.309-1.051,0.855-1.126 c0.544-0.073,1.051,0.308,1.126,0.855l1.97,14.446c0.075,0.547-0.309,1.051-0.855,1.126C36.089,55.997,36.044,56,35.999,56z M17.822,14.905c-0.07,0-0.142-0.007-0.213-0.022c-0.54-0.117-0.882-0.649-0.766-1.189 c1.105-5.1,5.869-8.948,11.081-8.953c0,0,0,0,0.001,0c0.552,0,1,0.447,1,0.999c0,0.552-0.447,1-0.999,1.001 c-4.293,0.003-8.218,3.175-9.128,7.376C18.697,14.585,18.283,14.905,17.822,14.905z M44.66,10h-0.289C45.406,12.199,46,14.64,46,17.222c-18.229,7.893-35,0-35,0 c0-2.583,0.594-5.023,1.629-7.222h-0.14C5.541,12.164,1,16.951,1,21c0,6.607,12.088,12,27,12s27-5.393,27-12 C55,17.177,50.959,12.19,44.66,10z"
+    }
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "point",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [
+        0,
+        {"signal": "width*0.8"}
+      ]
+    },
+    {
+      "name": "scaleY",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": [0, 300]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleY",
+      "orient": "left",
+      "domain": false,
+      "ticks": false,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelAlign": {
+        "signal": "'right'"
+      },
+      "labelPadding": {"signal": "10"},
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "symbol-value",
+      "type": "symbol",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "shape": {
+            "signal": "shapeSVG"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.5,
+            "offset": -20
+          },
+          "size": {"signal": "3"},
+          "stroke": {
+            "signal": "barColor1"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    }
+  ]
+}
