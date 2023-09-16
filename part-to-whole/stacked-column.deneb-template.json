@@ -1,0 +1,236 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Part-to-whole - Stacked Column/Bar Chart",
+      "description": "To show part-to-whole relationship",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "a3303128-3ee0-4849-ba8e-f0d6a6bed0be",
+      "generated": "2023-09-16T10:27:59.273Z"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value",
+        "description": "Value",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Part-to-whole - Stacked Column/Bar Chart. To show part-to-whole relationship.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Stacked Column/Bar Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show part-to-whole relationship"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#DDDDDD"
+    },
+    {
+      "name": "strokeColor",
+      "value": "#FFFFFF"
+    },
+    {"name": "strokeWidth", "value": 3},
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "stack",
+          "sort": {
+            "field": "__1__",
+            "order": "descending"
+          },
+          "field": "__1__"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["y0", "y1"]
+      },
+      "range": "height"
+    },
+    {
+      "name": "scaleX",
+      "type": "band",
+      "domain": [1],
+      "range": "width"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "rect-main",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "field": "y0"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "y1"
+          },
+          "x": {
+            "scale": "scaleX",
+            "value": "1"
+          },
+          "width": {
+            "scale": "scaleX",
+            "band": 0.5
+          },
+          "stroke": {
+            "signal": "strokeColor"
+          },
+          "strokeWidth": {
+            "signal": "strokeWidth"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-category",
+      "type": "text",
+      "from": {"data": "rect-main"},
+      "encode": {
+        "update": {
+          "text": {
+            "signal": "datum.datum['__0__']"
+          },
+          "x": {
+            "scale": "scaleX",
+            "band": 0.25
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "align": {
+            "signal": "'center'"
+          },
+          "y": {
+            "scale": "scaleY",
+            "signal": "(datum.datum.y0+datum.datum.y1)/2"
+          },
+          "strokeWidth": {
+            "signal": "0"
+          },
+          "fill": {
+            "signal": "labelColor"
+          },
+          "fontSize": {
+            "signal": "datum.height<labelFontSize*4/3?0:labelFontSize"
+          }
+        }
+      }
+    }
+  ]
+}
