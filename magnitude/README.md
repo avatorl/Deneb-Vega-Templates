@@ -16,6 +16,6 @@ Bar Chart - To compare values (two series)
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/f61425f2-2777-4cad-9631-6cdf784e9d71)
 
+ Lollipop - To compare values
 
-
-
+ ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6528cce3-7de6-42b5-b8c4-d32094ffc232)
