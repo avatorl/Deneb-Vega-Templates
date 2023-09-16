@@ -21,9 +21,14 @@
  ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/29515284-dea0-44a6-9709-f6d26bc6eed2)
 
  
-Violin Plot - To show multiple distributions
+Violin Plot - To show complex distribution
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2da39005-f6ad-480a-af75-4c15ad08261a)
+
+Population Pyramid - To show distribution for two categories
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/b733597d-eb2a-44f9-af89-40cd51b61f3e)
+
 
 
 
