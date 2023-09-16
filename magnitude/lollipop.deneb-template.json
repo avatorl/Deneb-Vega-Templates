@@ -1,0 +1,239 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.4.0.20220831#4f0615e",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.22.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "\"Ranking - Lollipop",
+      "description": "To compare values",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "b6ff647b-2435-4673-8af0-f43a317a24dc",
+      "generated": "2023-09-16T15:25:37.259Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value",
+        "description": "Value",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Ranking - Lollipop. To compare values.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Lollipop"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To compare values"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {"name": "dotSize", "value": 300},
+    {"name": "labelOffset", "value": 5}
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "collect",
+          "sort": {
+            "field": "__1__",
+            "order": "descending"
+          }
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "height"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleY",
+      "orient": "left",
+      "domain": false,
+      "ticks": false,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelAlign": {
+        "signal": "'left'"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-value",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "signal": "0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__"
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.1
+          },
+          "stroke": {
+            "signal": "barColor1"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    },
+    {
+      "name": "symbol-value",
+      "type": "symbol",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "offset": 2
+          },
+          "size": {"signal": "dotSize"},
+          "stroke": {
+            "signal": "barColor1"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    }
+  ]
+}
