@@ -1,0 +1,292 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Part-to-Whole - Marimekko",
+      "description": "To show size and proportion at the same time",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "8f638296-c6fd-412a-a480-1df6eea20640",
+      "generated": "2023-09-16T13:54:38.650Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name (part of a stacked bar)",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Group",
+        "description": "Group name (the whole stacked bar)",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value",
+        "description": "Value",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Part-to-Whole - Marimekko. To show size and proportion at the same time.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Marimekko"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show size and proportion at the same time"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "strokeColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {"name": "strokeWidth", "value": 2},
+    {"name": "groupOffset", "value": 5},
+    {"name": "labelOffset", "value": 5}
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["__1__"],
+          "sort": {
+            "field": "__2__",
+            "order": "descending"
+          },
+          "field": "__2__"
+        },
+        {
+          "type": "joinaggregate",
+          "groupby": ["__1__"],
+          "fields": ["__2__"],
+          "ops": ["sum"],
+          "as": ["sum"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.y0/datum.sum",
+          "as": "y0"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.y1/datum.sum",
+          "as": "y1"
+        },
+        {
+          "type": "joinaggregate",
+          "fields": ["__2__"],
+          "ops": ["sum"],
+          "as": ["total"]
+        },
+        {
+          "type": "stack",
+          "groupby": ["__0__"],
+          "sort": {
+            "field": "sum",
+            "order": "ascending"
+          },
+          "field": "sum",
+          "as": ["h0", "h1"]
+        }
+      ]
+    },
+    {
+      "name": "groups",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__1__",
+            "h0",
+            "h1"
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["y0", "y1"]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["h0", "h1"]
+      },
+      "range": [0, {"signal": "height"}]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "rect-main",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "y0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "y1"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "h0"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "h1",
+            "offset": -5
+          },
+          "stroke": {
+            "signal": "strokeColor"
+          },
+          "strokeWidth": {
+            "signal": "strokeWidth"
+          },
+          "fill": {
+            "signal": "barColor1"
+          },
+          "tooltip": {
+            "signal": "datum['__1__']+', '+datum['__0__']+': '+datum['__2__']"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-group",
+      "type": "text",
+      "from": {"data": "groups"},
+      "encode": {
+        "enter": {
+          "text": {
+            "signal": "datum['__1__']"
+          },
+          "x": {"signal": "-20"},
+          "y": {
+            "scale": "scaleY",
+            "signal": "(datum.h0+datum.h1)/2"
+          },
+          "fill": {
+            "signal": "labelColor"
+          },
+          "fontSize": {
+            "signal": "labelFontSize"
+          },
+          "tooltip": {
+            "signal": "datum['__1__']+', '+datum['__0__']+': '+datum['__2__']"
+          }
+        }
+      }
+    }
+  ]
+}
