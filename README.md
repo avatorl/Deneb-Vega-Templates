@@ -10,6 +10,12 @@ Project inspired (chart types) by [FT Visual Vocabulary](https://ft.com/vocabula
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)
 
+# Part-to-Whole
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/fde1c2f9-76e3-43cc-9528-7d6ec36da7ac)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2c84f746-f026-4b65-96eb-0111dc67dc54)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2c705207-69b5-4303-9789-5efaff2da9c6)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a406f9ce-236b-471a-86d0-aca0dade5205)
 
 # Spatial
 
