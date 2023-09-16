@@ -1,0 +1,256 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.5.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.23.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Distribution - Histogram",
+      "description": "To show a statistical distribution",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "412420a7-80da-40b2-a73b-ccac71dc7b31",
+      "generated": "2023-09-16T18:52:50.662Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "X Value",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Count",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "background": "white",
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Distribution - Histogram. To show a statistical distribution",
+  "padding": 15,
+  "autosize": "fit",
+  "signals": [
+    {
+      "name": "width",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "description": "Responsive. Based on container size.",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Histogram"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show a statistical distribution"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "subtitleText",
+      "value": "To show a statistical distribution"
+    },
+    {
+      "name": "dataColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "dataHighlightColor1",
+      "init": "pbiColor(0,-0.25)"
+    },
+    {
+      "name": "labelFontSize",
+      "value": 18
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "strokeWidth",
+      "value": 0.2
+    }
+  ],
+  "data": [
+    {"name": "dataset"},
+    {
+      "name": "binned",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "bin",
+          "field": "__0__",
+          "extent": [0, 100],
+          "anchor": {"signal": "0"},
+          "step": {"signal": "10"},
+          "nice": false
+        },
+        {
+          "type": "aggregate",
+          "key": "bin0",
+          "groupby": ["bin0", "bin1"],
+          "fields": ["__1__"],
+          "ops": ["sum"],
+          "as": ["bin_count"]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "range": "width",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      }
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "range": "height",
+      "round": true,
+      "domain": {
+        "data": "binned",
+        "field": "bin_count"
+      },
+      "zero": true,
+      "nice": true
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "scaleX",
+      "domain": false,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "zindex": 1
+    },
+    {
+      "orient": "left",
+      "scale": "scaleY",
+      "domain": false,
+      "grid": true,
+      "ticks": false,
+      "tickCount": 5,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "zindex": 0
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-column",
+      "type": "rect",
+      "from": {"data": "binned"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "bin0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "bin1"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "bin_count"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "value": 0
+          },
+          "strokeWidth": {
+            "signal": "strokeWidth"
+          },
+          "stroke": {
+            "signal": "'white'"
+          },
+          "tooltip": {
+            "signal": "datum['bin0']+'-'+datum['bin1']+': '+datum['bin_count']"
+          }
+        },
+        "update": {
+          "fill": {
+            "signal": "dataColor1"
+          }
+        }
+      }
+    }
+  ]
+}
