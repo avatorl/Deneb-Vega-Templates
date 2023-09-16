@@ -12,4 +12,9 @@ Connected Scatterplot - To show how relationship between two variables changed
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ab98c4f0-1ded-4ba5-a641-09db1726f7d8)
 
+Bubble Plot - Like a scatterplot, but adds a third variable
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/eba99da1-a9c3-4997-b233-ff4b06d3ebf1)
+
+
 
