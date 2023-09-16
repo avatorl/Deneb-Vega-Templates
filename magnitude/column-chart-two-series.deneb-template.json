@@ -1,0 +1,296 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.4.0.20220831#4f0615e",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.22.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Magnitude - Column Chart",
+      "description": "To compare values (two series)",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "590c7215-5f81-4ffc-8a0a-95becf6dfe13",
+      "generated": "2023-09-16T15:00:45.035Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value 1",
+        "description": "Value 1",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value 2",
+        "description": "Value 2",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Magnitude - Column Chart. To compare values (two series).",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Column Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To compare values (two series)"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 18
+    },
+    {"name": "labelOffset", "value": 5}
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["__1__", "__2__"]
+      },
+      "range": "height"
+    },
+    {
+      "name": "scaleX",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "width"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleX",
+      "orient": "bottom",
+      "domain": false,
+      "ticks": false,
+      "labelAngle": {"signal": "270"},
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelAlign": "right",
+      "labelBaseline": "middle",
+      "labelPadding": 10
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-value-2",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "signal": "0"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "__2__"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__",
+            "band": 0.5,
+            "offset": -5
+          },
+          "width": {
+            "scale": "scaleX",
+            "band": 0.4
+          },
+          "stroke": {
+            "signal": "barColor2"
+          },
+          "fill": {
+            "signal": "barColor2"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-value-2",
+      "type": "text",
+      "from": {"data": "rect-value-2"},
+      "encode": {
+        "enter": {
+          "text": {
+            "field": "datum['__2__']"
+          },
+          "y": {
+            "field": "y",
+            "offset": -5
+          },
+          "x": {
+            "signal": "datum.x+(datum.width/2)",
+            "offset": 5
+          },
+          "fill": {
+            "signal": "barColor2"
+          },
+          "align": {"value": "center"},
+          "fontSize": {
+            "signal": "labelFontSize"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-value-1",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "signal": "0",
+            "offset": 0
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "__1__"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__"
+          },
+          "width": {
+            "scale": "scaleX",
+            "band": 0.4
+          },
+          "stroke": {
+            "signal": "barColor1"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-value-1",
+      "type": "text",
+      "from": {"data": "rect-value-1"},
+      "encode": {
+        "enter": {
+          "text": {
+            "field": "datum['__1__']"
+          },
+          "y": {
+            "field": "y",
+            "offset": -5
+          },
+          "x": {
+            "signal": "datum.x+(datum.width/2)",
+            "offset": -5
+          },
+          "fill": {
+            "signal": "barColor1"
+          },
+          "align": {"value": "center"},
+          "fontSize": {
+            "signal": "labelFontSize"
+          }
+        }
+      }
+    }
+  ]
+}
