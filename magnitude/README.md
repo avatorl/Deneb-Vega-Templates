@@ -19,3 +19,8 @@ Bar Chart - To compare values (two series)
  Lollipop - To compare values
 
  ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6528cce3-7de6-42b5-b8c4-d32094ffc232)
+
+ Isotype (pictogram) - To compare whole numbers
+
+ ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3ca94e1b-3ecb-4bef-9ad7-ea1bfdf43026)
+
