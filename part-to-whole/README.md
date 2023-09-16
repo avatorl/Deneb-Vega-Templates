@@ -4,6 +4,11 @@ Stacked Column/Bar Chart - To show part-to-whole relationship
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/fde1c2f9-76e3-43cc-9528-7d6ec36da7ac)
 
+Marimekko - To show size and proportion at the same time
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2c84f746-f026-4b65-96eb-0111dc67dc54)
+
+
 Pie Chart - To show part-to-whole relationship
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2c705207-69b5-4303-9789-5efaff2da9c6)
