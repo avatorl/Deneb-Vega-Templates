@@ -16,6 +16,11 @@
 
  ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/c2b9e23d-fd91-4b7c-aba2-f071b6ad4556)
 
+ Boxplot - To show multiple distributions
+
+ ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/29515284-dea0-44a6-9709-f6d26bc6eed2)
+
+
 
 
 
