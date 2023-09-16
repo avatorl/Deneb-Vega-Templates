@@ -10,6 +10,11 @@ Project inspired (chart types) by [FT Visual Vocabulary](https://ft.com/vocabula
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)
 
+# Distribution
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1516292d-1e60-423c-8d0c-ab9ed5614f9e)
+
+
 # Magnitude
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/818049ee-c81f-4613-ad81-63e325bd2605)
