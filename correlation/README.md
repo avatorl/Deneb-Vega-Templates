@@ -6,4 +6,5 @@ Scatterplot - To show relationship between two variables
 
 Column and Line Timeline - To show relationship between an amount and a rate
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/d07a9720-18b2-41b1-ab7b-4f49ca0d62ed)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3941c967-88f0-4989-bfae-7ebaa8322452)
+
