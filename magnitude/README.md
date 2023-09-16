@@ -12,5 +12,10 @@ Column Chart - To compare values (two series)
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/5350d26b-c449-4fae-bc3f-7491f0bc5bb5)
 
+Bar Chart - To compare values (two series)
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/f61425f2-2777-4cad-9631-6cdf784e9d71)
+
+
 
 
