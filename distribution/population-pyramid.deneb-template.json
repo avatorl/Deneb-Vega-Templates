@@ -1,0 +1,319 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.4.0.20220831#4f0615e",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.22.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Distribution - Population Pyramid",
+      "description": "To show distribution for two categories",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "ec1640cc-5dd9-484d-89dd-7e5fdf412c81",
+      "generated": "2023-09-16T20:33:35.913Z"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Axis Y",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value Left",
+        "description": "Left Category",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value Right",
+        "description": "Right Category",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Distribution - Population Pyramid. To show distribution for two categories.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Population Pyramid"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show distribution for two categories"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 18
+    },
+    {
+      "name": "labelFontSizeX",
+      "value": 12
+    }
+  ],
+  "data": [
+    {"name": "dataset"},
+    {
+      "name": "binned",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "bin",
+          "field": "__0__",
+          "extent": [0, 100],
+          "anchor": {"signal": "0"},
+          "step": {"signal": "1"},
+          "nice": false
+        },
+        {
+          "type": "aggregate",
+          "key": "bin0",
+          "groupby": ["bin0", "bin1"],
+          "fields": ["__1__", "__2__"],
+          "ops": ["sum", "sum"],
+          "as": [
+            "count_left",
+            "count_right"
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "range": "height",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      }
+    },
+    {
+      "name": "scaleXLeft",
+      "type": "linear",
+      "range": [
+        {"signal": "width/2"},
+        0
+      ],
+      "round": true,
+      "domain": {
+        "data": "binned",
+        "field": "count_left"
+      },
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "scaleXRight",
+      "type": "linear",
+      "range": [
+        {"signal": "width/2"},
+        {"signal": "width"}
+      ],
+      "round": true,
+      "domain": {
+        "data": "binned",
+        "field": "count_right"
+      },
+      "zero": true,
+      "nice": true
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "scaleY",
+      "zindex": 1,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    },
+    {
+      "orient": "right",
+      "scale": "scaleY",
+      "zindex": 1,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    },
+    {
+      "orient": "bottom",
+      "scale": "scaleXLeft",
+      "tickCount": 5,
+      "zindex": 1,
+      "labelPadding": 5,
+      "labelFontSize": {
+        "signal": "labelFontSizeX"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    },
+    {
+      "orient": "bottom",
+      "scale": "scaleXRight",
+      "tickCount": 5,
+      "zindex": 1,
+      "labelPadding": 5,
+      "labelFontSize": {
+        "signal": "labelFontSizeX"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "binned"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "field": "bin0"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "bin1",
+            "offset": {
+              "signal": "1 > 0.02 ? -0.5 : 0"
+            }
+          },
+          "x": {
+            "scale": "scaleXLeft",
+            "value": 0
+          },
+          "x2": {
+            "scale": "scaleXLeft",
+            "field": "count_left"
+          },
+          "fill": {
+            "signal": "barColor2"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "binned"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "field": "bin0"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "bin1",
+            "offset": {
+              "signal": "1 > 0.02 ? -0.5 : 0"
+            }
+          },
+          "x": {
+            "scale": "scaleXRight",
+            "value": 0
+          },
+          "x2": {
+            "scale": "scaleXRight",
+            "field": "count_right"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    }
+  ]
+}
