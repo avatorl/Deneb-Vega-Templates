@@ -18,5 +18,6 @@ Pie Chart - To show part-to-whole relationship
  
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a406f9ce-236b-471a-86d0-aca0dade5205)
 
+Gridplot - To show % value (whole numbers)
 
-
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e8f1ee4d-ef64-45e6-a7a1-f4a6544f0983)
