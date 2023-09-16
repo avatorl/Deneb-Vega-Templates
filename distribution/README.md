@@ -20,6 +20,11 @@
 
  ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/29515284-dea0-44a6-9709-f6d26bc6eed2)
 
+ 
+Violin Plot - To show multiple distributions
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/2da39005-f6ad-480a-af75-4c15ad08261a)
+
 
 
 
