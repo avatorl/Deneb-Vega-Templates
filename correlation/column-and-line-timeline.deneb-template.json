@@ -182,6 +182,12 @@
       "orient": "bottom",
       "scale": "scaleX",
       "labels": true,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "colorLabel"
+      },
       "labelOverlap": true,
       "encode": {
         "labels": {
