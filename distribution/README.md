@@ -8,4 +8,9 @@
 
  ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/24c1ff5d-9daa-44e8-a107-8edc11b2200d)
 
+ Dot Strip Plot - To show individual values in distribution
+
+ ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/800888fb-08ac-4b6b-b0a0-0ae3f4d888d6)
+
+
 
