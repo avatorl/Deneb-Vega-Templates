@@ -19,8 +19,7 @@
       "description": "To display the rank of values",
       "author": "Andrzej Leszkiewicz",
       "uuid": "a705ba94-231f-45f9-95bf-62015479f542",
-      "generated": "2023-09-17T22:27:42.275Z",
-      "previewImageBase64PNG": "data:image/png;base64,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"
+      "generated": "2023-09-17T22:33:41.601Z"
     },
     "dataset": [
       {
@@ -45,7 +44,7 @@
     "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
   },
   "config": {},
-  "description": "Ranking - Lollipop. To compare values.",
+  "description": "Ranking - Lollipop. To display the rank of values.",
   "padding": 15,
   "autosize": "fit",
   "background": "white",
@@ -66,7 +65,7 @@
     },
     {
       "name": "subTitleText",
-      "value": "To compare values"
+      "value": "To display the rank of values"
     },
     {
       "name": "titleOffset",
@@ -109,20 +108,7 @@
     {"name": "dotSize", "value": 300},
     {"name": "labelOffset", "value": 5}
   ],
-  "data": [
-    {
-      "name": "dataset",
-      "transform": [
-        {
-          "type": "collect",
-          "sort": {
-            "field": "__1__",
-            "order": "descending"
-          }
-        }
-      ]
-    }
-  ],
+  "data": [{"name": "dataset"}],
   "scales": [
     {
       "name": "scaleX",
@@ -138,7 +124,12 @@
       "type": "band",
       "domain": {
         "data": "dataset",
-        "field": "__0__"
+        "field": "__0__",
+        "sort": {
+          "op": "sum",
+          "field": "__1__",
+          "order": "descending"
+        }
       },
       "range": "height"
     }
