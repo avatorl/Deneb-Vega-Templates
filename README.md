@@ -14,6 +14,8 @@ Andrzej Leszkiewicz
 
 Examples of highly customized Deneb/Vega data visualizations created by Andrzej Leszkiewicz: https://github.com/avatorl/Deneb-Vega
 
+Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
+
 ## External Resources
 
 The chart types that are presented in this repository are based on the [Financial Times Visual Vocabulary](https://ft.com/vocabulary)
