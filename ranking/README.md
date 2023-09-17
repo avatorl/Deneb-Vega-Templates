@@ -11,3 +11,7 @@ Column Chart (Ordered) - To display the rank of values
 Dot Strip Plot - To show ranks across multiple categories
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/0a14a969-6c8a-44fd-ac4b-633a3e609896)
+
+Lollipop - To display the rank of values
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a5f376c9-3e34-4f00-9462-845269855e0a)
