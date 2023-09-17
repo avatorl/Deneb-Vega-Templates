@@ -14,5 +14,6 @@ Dot Strip Plot - To show ranks across multiple categories
 
 Lollipop - To display the rank of values
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6e69692d-a4f9-44f2-b02d-64f60bdd32ac)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/7a3de6a8-5413-4c9b-aa5c-5526363d1337)
+
 
