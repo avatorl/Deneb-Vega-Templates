@@ -1,8 +1,8 @@
-# Deneb Vega Templates by Andrzej Leszkiewicz
+# Power BI Deneb Vega Templates by Andrzej Leszkiewicz
 
 Data visualization templates for Deneb, custom visual for Power BI. Developed using Vega (not Vega-Lite) visualization grammar.
 
-The project is inspired by Financial Times (FT) Visual Vocabulary, but not endorsed by FT.
+The chart type selection for the templates has been inspired by the Financial Times Visual Vocabulary.
 
 ## Author of the templates
 
@@ -18,7 +18,7 @@ Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy
 
 ## External Resources
 
-The chart types that are presented in this repository are based on the [Financial Times Visual Vocabulary](https://ft.com/vocabulary)
+Financial Times Visual Vocabulary: https://ft.com/vocabulary
 
 Deneb (custom visual for Power BI): https://deneb-viz.github.io/
 
