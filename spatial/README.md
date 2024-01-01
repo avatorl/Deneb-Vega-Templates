@@ -1,4 +1,7 @@
-## Deneb (custom visual for Power BI) / Vega (visualization grammar) Templates by Andrzej Leszkiewicz
+## Deneb/ Vega Templates by Andrzej Leszkiewicz
+
+Deneb - custom visual for Power BI
+Vega - visualization grammar
 
 # Spatial
 
