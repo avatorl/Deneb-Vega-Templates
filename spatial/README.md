@@ -1,3 +1,5 @@
+## Deneb (custom visual for Power BI) / Vega (visualization grammar) Templates by Andrzej Leszkiewicz
+
 # Spatial
 
 Choropleth - To show rates on a map
