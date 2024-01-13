@@ -24,6 +24,10 @@ Deneb (custom visual for Power BI): https://deneb-viz.github.io/
 
 Vega visualization grammar: https://vega.github.io/vega/
 
+## Deneb Vega Help
+
+Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
+
 ## Chart Types
 
 ### Deviation
