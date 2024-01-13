@@ -16,6 +16,10 @@ Examples of highly customized Deneb/Vega data visualizations created by Andrzej 
 
 Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
 
+### Deneb Vega Help
+
+Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
+
 ## External Resources
 
 Financial Times Visual Vocabulary: https://ft.com/vocabulary
@@ -23,10 +27,6 @@ Financial Times Visual Vocabulary: https://ft.com/vocabulary
 Deneb (custom visual for Power BI): https://deneb-viz.github.io/
 
 Vega visualization grammar: https://vega.github.io/vega/
-
-## Deneb Vega Help
-
-Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
 
 ## Chart Types
 
