@@ -16,5 +16,6 @@ Bubble Plot - Like a scatterplot, but adds a third variable
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/eba99da1-a9c3-4997-b233-ff4b06d3ebf1)
 
+Correlation - Heatmap. To show correlation pattern between 2 categories of data
 
-
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/17bf13f7-4d12-4782-afcd-6d5af6f0fbbf)
