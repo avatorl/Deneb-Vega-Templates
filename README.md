@@ -48,6 +48,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1516292d-1e60-423c-8d0c-ab9ed5614f9e)
 
+### Change over Time
+
+---
 
 ### Magnitude
 
@@ -62,4 +65,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 ### Spatial
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6606c831-2b75-43e5-8068-785760a68dbf)
+
+### Flow
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/c041cf2c-cc42-410f-aadf-c462efeee7d0)
+
 
