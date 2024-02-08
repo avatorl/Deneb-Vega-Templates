@@ -16,6 +16,11 @@ Dot Strip Plot - To show ranks across multiple categories
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/0a14a969-6c8a-44fd-ac4b-633a3e609896)
 
+Slope - To show how rank have changed over time
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/d5765da8-8f44-44de-bc84-4896ade9aeee)
+
+
 Lollipop - To display the rank of values
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/7a3de6a8-5413-4c9b-aa5c-5526363d1337)
