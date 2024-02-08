@@ -34,6 +34,12 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)
 
+
+### Correlation
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ec12bcb6-c4e6-40bb-bca1-6f3d7a45fd04)
+
+
 ### Distribution
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1516292d-1e60-423c-8d0c-ab9ed5614f9e)
@@ -48,6 +54,8 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/feee590d-bb96-44eb-8eeb-cdd92ada22dc)
 
+
 ### Spatial
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6606c831-2b75-43e5-8068-785760a68dbf)
+
