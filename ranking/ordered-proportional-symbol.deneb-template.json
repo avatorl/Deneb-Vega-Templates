@@ -1,0 +1,279 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Ranking - Ordered Proportional Symbol Chart",
+      "description": "To show ranking by two categories, when rank is more important than absolute value",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "5f834452-30ef-4e49-9c18-33bccbec950b",
+      "generated": "2024-02-08T20:04:53.678Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Rate 1",
+        "description": "Axis X ordered values",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Rate 2",
+        "description": "Axis Y ordered values",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Fruit",
+        "description": "Bubble name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Amount",
+        "description": "Bubble size",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Ranking - Ordered Proportional Symbol Chart. To show ranking by two categories, when rank is more important than absolute value",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "color1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {
+      "name": "axisLabelFontSize",
+      "value": 14
+    },
+    {
+      "name": "bubbleOpacity",
+      "value": 0.6
+    },
+    {
+      "name": "bubbleStrokeWidth",
+      "value": 1
+    }
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "point",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__",
+        "sort": true
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "point",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__",
+        "sort": true
+      },
+      "range": [
+        {"signal": "height"},
+        {"signal": "0"}
+      ]
+    },
+    {
+      "name": "scaleSize",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "__3__"
+      },
+      "range": [0, 10000]
+    }
+  ],
+  "title": {
+    "text": "Ordered Proportional Symbol Chart",
+    "anchor": "start",
+    "offset": 10,
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": "To show ranking by two categories and absolute values",
+    "subtitlePadding": 10,
+    "subtitleFontSize": {"signal": "16"}
+  },
+  "axes": [
+    {
+      "scale": "scaleX",
+      "orient": "bottom",
+      "title": "Rank 1",
+      "titleFontSize": {
+        "signal": "axisLabelFontSize"
+      },
+      "titleColor": {
+        "signal": "labelColor"
+      },
+      "offset": 55,
+      "domain": false,
+      "grid": true,
+      "gridOpacity": 0.6,
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelFontSize": {
+        "signal": "axisLabelFontSize"
+      }
+    },
+    {
+      "scale": "scaleY",
+      "orient": "left",
+      "title": "Rank 2",
+      "titleFontSize": {
+        "signal": "axisLabelFontSize"
+      },
+      "titleColor": {
+        "signal": "labelColor"
+      },
+      "offset": 70,
+      "domain": false,
+      "grid": true,
+      "gridOpacity": 0.6,
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelFontSize": {
+        "signal": "axisLabelFontSize"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "symbol-bubbles",
+      "type": "symbol",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__1__"
+          },
+          "size": {
+            "signal": "datum['__3__']",
+            "scale": "scaleSize"
+          },
+          "fill": {"signal": "color1"},
+          "opacity": {
+            "signal": "bubbleOpacity"
+          },
+          "stroke": {
+            "signal": "color1"
+          },
+          "strokeWidth": {
+            "signal": "bubbleStrokeWidth"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "symbol-bubbles"
+      },
+      "encode": {
+        "enter": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "text": {
+            "field": "datum['__2__']"
+          },
+          "align": {"value": "center"},
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "signal": "labelFontSize"
+          },
+          "fontWeight": {
+            "value": "normal"
+          },
+          "fill": {
+            "signal": "labelColor"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "label",
+          "avoidMarks": [
+            "symbol-bubbles"
+          ],
+          "anchor": [
+            "top",
+            "bottom",
+            "right",
+            "top-left"
+          ],
+          "padding": 50,
+          "size": {
+            "signal": "[width, height]"
+          }
+        }
+      ]
+    }
+  ]
+}
