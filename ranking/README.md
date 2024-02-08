@@ -16,4 +16,6 @@ Lollipop - To display the rank of values
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/7a3de6a8-5413-4c9b-aa5c-5526363d1337)
 
+Ordered Proportional Symbol Chart. To show ranking by two categories, when rank is more important than absolute value
 
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/4eafefce-ec04-47f5-8fc0-2d4be3eb4c6c)
