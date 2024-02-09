@@ -25,4 +25,9 @@ Lollipop - To display the rank of values
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/7a3de6a8-5413-4c9b-aa5c-5526363d1337)
 
+Bump - To show changing ranking
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/25dcfdba-e929-4494-a48d-db699f6cbf75)
+
+
 
