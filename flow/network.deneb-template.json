@@ -1,0 +1,317 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": false,
+      "highlight": false,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Network",
+      "description": "To show inter-connectedness of relationships",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "fa7b6e6f-9119-4176-8d9e-702959b8a872",
+      "generated": "2024-02-09T21:05:47.782Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Node 1",
+        "description": "Node 1 name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Node 2",
+        "description": "Node 2 name",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "source",
+        "description": "Node 1 id",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "target",
+        "description": "Node 2 id",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Network. To show inter-connectedness of relationships.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Network"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show inter-connectedness of relationships"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "color1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "color2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 18
+    },
+    {
+      "name": "strokeColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "cx",
+      "update": "width / 2"
+    },
+    {
+      "name": "cy",
+      "update": "height / 2"
+    },
+    {"name": "nodeRadius", "value": 15},
+    {
+      "name": "nodeCharge",
+      "value": -50
+    },
+    {
+      "name": "linkDistance",
+      "value": 150
+    },
+    {"name": "static", "value": true}
+  ],
+  "data": [
+    {"name": "dataset"},
+    {
+      "name": "data-node-left",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["__0__", "__2__"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__2__']",
+          "as": "index"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__0__']",
+          "as": "name"
+        }
+      ]
+    },
+    {
+      "name": "data-node-right",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["__1__", "__3__"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__3__']",
+          "as": "index"
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__1__']",
+          "as": "name"
+        }
+      ]
+    },
+    {
+      "name": "data-node-all",
+      "source": [
+        "data-node-left",
+        "data-node-right"
+      ],
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["name", "index"]
+        }
+      ]
+    },
+    {
+      "name": "data-links",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "1",
+          "as": "value"
+        }
+      ]
+    }
+  ],
+  "scales": [],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "symbol-nodes",
+      "type": "symbol",
+      "zindex": 1,
+      "from": {"data": "data-node-all"},
+      "on": [],
+      "encode": {
+        "enter": {
+          "fill": {"signal": "color1"},
+          "stroke": {"value": "white"},
+          "tooltip": {
+            "signal": "datum.name"
+          }
+        },
+        "update": {
+          "size": {
+            "signal": "2 * nodeRadius * nodeRadius"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "iterations": 500,
+          "restart": {
+            "signal": "false"
+          },
+          "static": {
+            "signal": "static"
+          },
+          "signal": "force",
+          "forces": [
+            {
+              "force": "center",
+              "x": {"signal": "cx"},
+              "y": {"signal": "cy"}
+            },
+            {
+              "force": "collide",
+              "radius": {
+                "signal": "nodeRadius"
+              }
+            },
+            {
+              "force": "nbody",
+              "strength": {
+                "signal": "nodeCharge"
+              }
+            },
+            {
+              "force": "link",
+              "links": "data-links",
+              "distance": {
+                "signal": "linkDistance"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "from": {"data": "data-links"},
+      "interactive": false,
+      "encode": {
+        "update": {
+          "stroke": {
+            "signal": "color2"
+          },
+          "strokeWidth": {"value": 1}
+        }
+      },
+      "transform": [
+        {
+          "type": "linkpath",
+          "shape": "line",
+          "sourceX": "datum['__2__'].x",
+          "sourceY": "datum['__2__'].y",
+          "targetX": "datum['__3__'].x",
+          "targetY": "datum['__3__'].y"
+        }
+      ]
+    }
+  ]
+}
