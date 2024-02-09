@@ -46,7 +46,7 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Ranking
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6f639ba7-710a-4a0d-a03e-3818bb794d88)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cecf5523-6338-4ddc-82d4-66ca00a942bd)
 
 ---
 
