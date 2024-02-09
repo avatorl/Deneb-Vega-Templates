@@ -1,0 +1,232 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Candlestick",
+      "description": "To show opening/closing and high/low daily points",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "c63d1f4d-8a70-490a-ac0d-bf66658cd22b",
+      "generated": "2024-02-09T12:54:02.989Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Close",
+        "description": "Close",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "High",
+        "description": "High",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Low",
+        "description": "Low",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Open",
+        "description": "Open",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__4__",
+        "name": "Date",
+        "description": "",
+        "type": "dateTime",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Change over Time - Candlestick. To show opening/closing and high/low daily points.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "color1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "color2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "strokeColor",
+      "value": "#000000"
+    },
+    {"name": "strokeWidth", "value": 1},
+    {
+      "name": "titleText",
+      "value": "Candlestick"
+    },
+    {
+      "name": "subtitleText",
+      "value": "To show opening/closing and high/low daily points"
+    }
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "band",
+      "range": [0, {"signal": "width"}],
+      "domain": {
+        "data": "dataset",
+        "field": "__4__",
+        "sort": true
+      }
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "range": [
+        {"signal": "height"},
+        0
+      ],
+      "round": true,
+      "domain": {
+        "data": "dataset",
+        "fields": [
+          "Hight",
+          "__2__",
+          "__3__",
+          "__0__"
+        ]
+      },
+      "zero": false,
+      "nice": true
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": 10,
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subtitleText"
+    },
+    "subtitlePadding": 10,
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "type": "rule",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "scaleY",
+            "field": "__2__"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "__1__"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__4__"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__4__"
+          },
+          "stroke": {
+            "signal": "strokeColor"
+          },
+          "strokeWidth": {
+            "signal": "strokeWidth"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "scaleY",
+            "field": "__3__"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "field": "__0__"
+          },
+          "xc": {
+            "scale": "scaleX",
+            "field": "__4__"
+          },
+          "width": {
+            "scale": "scaleX",
+            "band": 0.25
+          },
+          "fill": {
+            "signal": "datum['__0__']>datum['__3__'] ? color1 :color2"
+          },
+          "stroke": {
+            "signal": "strokeColor"
+          },
+          "strokeWidth": {
+            "signal": "strokeWidth"
+          }
+        }
+      }
+    }
+  ]
+}
