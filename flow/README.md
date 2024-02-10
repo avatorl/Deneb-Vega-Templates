@@ -24,8 +24,6 @@ https://www.ft.com/content/9f0270aa-eabf-11e7-bd17-521324c81e23
 
 https://www.ft.com/content/1532e776-1263-11e8-a765-993b2440bd73
 
-https://www.ft.com/content/0e0e6960-da17-11e5-98fd-06d75973fe09
-
 ## Network - To show interconnections between a set of entities
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/52ef86a2-dd11-4075-ac21-e70703994666)
