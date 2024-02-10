@@ -36,9 +36,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ---
 
-### Deviation
+### Deviation ✅
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/deviation/)
 
 ---
 
