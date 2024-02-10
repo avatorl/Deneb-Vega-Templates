@@ -85,6 +85,6 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Flow
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/053c1fcc-be75-40b3-91ea-c93393c3754c)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/29bb1a88-89b3-4c47-9150-c89b1b294bbc)
 
 ---
