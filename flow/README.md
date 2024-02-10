@@ -10,11 +10,7 @@
 
 ## Chord - To show 2-ways flow in a matrix
 
-Can't be implemented in Vega without hardcoding the paths.
-
-See https://gist.github.com/XavierGimenez/9d4423c12dd2ed3804ac4e5736dccdf5.
-
-Use Sankey instead.
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e264eb50-7b9a-4413-b833-49d1d846b592)
 
 ## Network - To show interconnections between a set of entities
 
