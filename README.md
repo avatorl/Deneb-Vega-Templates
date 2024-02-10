@@ -38,19 +38,19 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Deviation ✅
 
-[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/deviation/)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/febdddb3-0ec7-429f-afa2-9a28cb8a4b0b)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/deviation)
 
 ---
 
 ### Correlation ✅
 
-[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ec12bcb6-c4e6-40bb-bca1-6f3d7a45fd04)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/correlation/)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ec12bcb6-c4e6-40bb-bca1-6f3d7a45fd04)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/correlation)
 
 ---
 
-### Ranking
+### Ranking ✅
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cecf5523-6338-4ddc-82d4-66ca00a942bd)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cecf5523-6338-4ddc-82d4-66ca00a942bd)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/ranking)
 
 ---
 
@@ -85,6 +85,6 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Flow ✅
 
-[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/83a36f70-da2e-4579-8679-fb76223c9bb3)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/flow/)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/83a36f70-da2e-4579-8679-fb76223c9bb3)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/flow)
 
 ---
