@@ -4,6 +4,10 @@ Data visualization templates for Deneb, custom visual for Power BI. Developed us
 
 The chart type selection for the templates has been inspired by the Financial Times Visual Vocabulary.
 
+Live Power BI report with all the templates: https://powerofbi.org/deneb-vega-templates/
+
+PBIX file to download: [will be added later]
+
 ## Author of the templates
 
 Andrzej Leszkiewicz
