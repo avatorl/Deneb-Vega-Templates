@@ -1,0 +1,334 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Waterfall",
+      "description": "To shows sequentially of data through a flow process",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "0b869e96-d6b3-4a50-95c8-246b7bf1515e",
+      "generated": "2024-02-10T11:30:04.892Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Period",
+        "description": "Period (Axis X) label",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value",
+        "description": "Value (total or change)",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Total",
+        "description": "TRUE for total values (columns)",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Order",
+        "description": "Ordering index for Period (Axis X) labels",
+        "type": "text",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Flow - Waterfall. To shows sequentially of data through a flow process",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Waterfall"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To shows sequentially of data through a flow process"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "colorPositive",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "colorNegative",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "colorNeutral",
+      "value": "grey"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "labelFontSize",
+      "value": 18
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "collect",
+          "sort": {
+            "field": "__3__",
+            "order": "ascending"
+          }
+        },
+        {
+          "type": "extent",
+          "field": "__3__",
+          "signal": "OrderX"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum['__3__']==1||!datum['__2__']) ? datum['__1__'] : 0",
+          "as": "Value2"
+        },
+        {
+          "type": "window",
+          "sort": {
+            "field": "__3__",
+            "order": "ascending"
+          },
+          "ops": ["sum"],
+          "fields": ["Value2"],
+          "as": ["y2"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum['__2__'] ? 0 : datum['y2']-datum['__1__']",
+          "as": "y"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": ["y", "y2"]
+      },
+      "range": "height",
+      "nice": true
+    },
+    {
+      "name": "scaleX",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "width"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "scaleX",
+      "domain": true,
+      "ticks": false,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelAlign": {
+        "signal": "'center'"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-main",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "signal": "datum['y']"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "signal": "datum['y2']"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__",
+            "band": 0.1
+          },
+          "width": {
+            "scale": "scaleX",
+            "band": 0.8
+          },
+          "stroke": {
+            "signal": "datum['__2__'] ? colorNeutral : datum['__1__']>=0 ? colorPositive : colorNegative"
+          },
+          "strokeWidth": {
+            "signal": "1"
+          },
+          "fill": {
+            "signal": "datum['__2__'] ? colorNeutral : datum['__1__']>=0 ? colorPositive : colorNegative"
+          }
+        }
+      }
+    },
+    {
+      "name": "rule-connection",
+      "type": "rule",
+      "from": {"data": "dataset"},
+      "encode": {
+        "update": {
+          "y": {
+            "scale": "scaleY",
+            "signal": "datum['y2']"
+          },
+          "y2": {
+            "scale": "scaleY",
+            "signal": "datum['y2']"
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__",
+            "band": 0.9
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__0__",
+            "band": 1.1
+          },
+          "stroke": {
+            "signal": "colorNeutral"
+          },
+          "strokeDash": {
+            "signal": "[2,2]"
+          },
+          "strokeWidth": {
+            "signal": "datum['__3__']==OrderX[1]?0:1"
+          },
+          "fill": {
+            "signal": "datum['__2__'] ? colorNeutral : datum['__1__']>=0 ? colorPositive : colorNegative"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-label",
+      "type": "text",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "scaleY",
+            "signal": "datum['y2']",
+            "offset": {
+              "signal": "-10*datum['__1__']/abs(datum['__1__'])"
+            }
+          },
+          "x": {
+            "scale": "scaleX",
+            "field": "__0__",
+            "band": 0.5
+          },
+          "fontSize": {
+            "signal": "labelFontSize"
+          },
+          "fill": {
+            "signal": "labelColor"
+          },
+          "align": {
+            "signal": "'center'"
+          },
+          "baseline": {
+            "signal": "'middle'"
+          },
+          "text": {
+            "signal": "datum['__2__'] ? format(datum['__1__'],'.0f') : format(datum['__1__'],'+.0f')"
+          }
+        }
+      }
+    }
+  ]
+}
