@@ -20,8 +20,6 @@ Examples of other highly customized Deneb/Vega data visualizations created by An
 
 Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
 
-Support: https://github.com/avatorl/Deneb-Vega-Help
-
 ### Deneb Vega Help
 
 Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
