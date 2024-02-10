@@ -6,19 +6,21 @@ The chart type selection for the templates has been inspired by the Financial Ti
 
 Live Power BI report with all the templates: https://powerofbi.org/deneb-vega-templates/
 
-PBIX file to download: [will be added later]
+Download PBIX file: [will be added later]
 
 ## Author of the templates
 
 Andrzej Leszkiewicz
 - Website (blog): [Power of Business Intelligence](https://powerofbi.org/)
+- YouTube: [@power-of-bi](https://www.youtube.com/@power-of-bi)
 - Twitter: [@avatorl](https://twitter.com/avatorl)
 - LinkedIn: [@avatorl](https://www.linkedin.com/in/avatorl/)
-- YouTube: [@power-of-bi](https://www.youtube.com/@power-of-bi)
 
-Examples of highly customized Deneb/Vega data visualizations created by Andrzej Leszkiewicz: https://github.com/avatorl/Deneb-Vega
+Examples of other highly customized Deneb/Vega data visualizations created by Andrzej Leszkiewicz: https://github.com/avatorl/Deneb-Vega
 
 Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
+
+Support: https://github.com/avatorl/Deneb-Vega-Help
 
 ### Deneb Vega Help
 
