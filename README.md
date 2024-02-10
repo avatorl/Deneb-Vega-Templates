@@ -42,9 +42,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ---
 
-### Correlation
+### Correlation ✅
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ec12bcb6-c4e6-40bb-bca1-6f3d7a45fd04)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ec12bcb6-c4e6-40bb-bca1-6f3d7a45fd04)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/correlation/)
 
 ---
 
