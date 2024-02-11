@@ -77,9 +77,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ---
 
-### Spatial
+### Spatial ✅
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6606c831-2b75-43e5-8068-785760a68dbf)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/0d4390ac-66a2-44fc-b306-a0554b23602f)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/spatial)
 
 ---
 
