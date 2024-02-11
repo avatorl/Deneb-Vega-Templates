@@ -56,24 +56,25 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Distribution 🛠️
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1516292d-1e60-423c-8d0c-ab9ed5614f9e)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/1516292d-1e60-423c-8d0c-ab9ed5614f9e)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/distribution)
 
 ---
 
 ### Change over Time 🛠️
 
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6deec789-c7f3-4388-b276-d17f6599399f)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/change-over-time)
 
 ---
 
 ### Magnitude 🛠️
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/818049ee-c81f-4613-ad81-63e325bd2605)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/818049ee-c81f-4613-ad81-63e325bd2605)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/magnitude)
 
 ---
 
 ### Part-to-Whole 🛠️
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/feee590d-bb96-44eb-8eeb-cdd92ada22dc)
+[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/feee590d-bb96-44eb-8eeb-cdd92ada22dc)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/part-to-whole)
 
 ---
 
