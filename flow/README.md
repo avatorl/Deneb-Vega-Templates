@@ -20,6 +20,8 @@ https://www.ft.com/content/64cd7913-c453-4d84-bcde-5553e4a5aef7
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e264eb50-7b9a-4413-b833-49d1d846b592)
 
+This template is an example of how Vega expressions can be used to dynamically generate SVG paths and therefore to create charts not based on the existing Vega transforms.
+
 https://www.ft.com/content/9f0270aa-eabf-11e7-bd17-521324c81e23
 
 https://www.ft.com/content/1532e776-1263-11e8-a765-993b2440bd73
