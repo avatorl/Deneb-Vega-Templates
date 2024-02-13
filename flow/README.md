@@ -21,7 +21,7 @@ https://www.ft.com/content/64cd7913-c453-4d84-bcde-5553e4a5aef7
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e264eb50-7b9a-4413-b833-49d1d846b592)
 
 This template is an example of how Vega expressions can be used to dynamically generate SVG paths and therefore to create charts more complex than the existing Vega transforms allow.
-See YouTube video for more details: [to be added]
+Watch [Power BI Magic: SVG paths in Deneb and core Power BI visuals. Draw almost anything in real time!](https://youtu.be/WlYM8xwl3Wo) YouTube video for more details.
 
 https://www.ft.com/content/9f0270aa-eabf-11e7-bd17-521324c81e23
 
