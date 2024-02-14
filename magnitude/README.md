@@ -8,9 +8,9 @@ Bar Chart - To compare size of things
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/466a224e-4167-4497-b980-570bd1f30006)
 
-Column Chart - To compare values (two series)
+Column Chart (Paired). To compare values (two series)
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/5350d26b-c449-4fae-bc3f-7491f0bc5bb5)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/8d7a1aeb-ce33-4508-91c8-687146a36015)
 
 Bar Chart - To compare values (two series)
 
