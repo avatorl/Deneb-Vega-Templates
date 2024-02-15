@@ -22,7 +22,7 @@ Marimekko - To show size and proportion at the same time
 
 Proportional Symbol Chart - To show variations when fine difference are not so important
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3bdd58f7-b191-4450-9e5a-1e7030ca9e92)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/c012f7db-71ee-4abc-852d-ecf52309cf6e)
 
 Lollipop - To compare values
 
