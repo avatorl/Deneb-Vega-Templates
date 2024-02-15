@@ -24,8 +24,6 @@ Proportional Symbol Chart - To show variations when fine difference are not so i
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3bdd58f7-b191-4450-9e5a-1e7030ca9e92)
 
-===
-
 Lollipop - To compare values
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6528cce3-7de6-42b5-b8c4-d32094ffc232)
