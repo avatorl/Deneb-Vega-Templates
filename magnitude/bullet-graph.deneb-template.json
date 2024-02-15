@@ -1,0 +1,381 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": false,
+      "highlight": false,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Magnitude - Bullet Graph",
+      "description": "To show a value against a target or range",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "42101f7c-b80a-424b-98ce-02b04cd6addb",
+      "generated": "2024-02-15T09:55:44.147Z",
+      "previewImageBase64PNG": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACTCAYAAABoOTBsAAAAAXNSR0IArs4c6QAAGYNJREFUeF7tnXeQVMW3x88Gdpdld8mSQTJIEpAgoiAiiKIiKohioWUVZXiGZ6H4hz9T8SypspSHz7KUQlEJoogSDaiIKEFUgghKThJFkbBL2IVXn4O93p2dnbkze2d2QnfV1M7O9O3bffo7p/v2+Z5zUs6dO3dObLES8EgCKRZQHknSNqMSsICyQPBUAhZQnorTNmYBZTHgqQSiBqiffvpJO96lSxdPB2Aa++KLL6R58+bStGnTiLRvG3UnAb+AOnLkiDzyyCOyfv16baVevXoyceJEv5O1fft2mTBhgjz66KPy0ksv6XW+k3ry5EkZN26cDB06tASgnPdp3769tkN5+umn/bZT1pBoJ9Rr3InH1gpVAmUCyjlBr7zyijRp0kQ6dOigk/7ss8/KN998Izt37pTBgweXAhSdeOihh2Tfvn3yxhtvaJ9Gjx5dApi+IJs7d662d+eddyo4AMkvv/wiTz31lNxwww3C988991xxGz///HPx/0OGDJHXXntNDCirVasWqhxsfY8k4EpDmYn666+/ggLqvvvuk6lTp6o2osyePVvGjBkjL774YgkNZTQb4HQCwGgtAGmuf/DBB+X9999XsJl29uzZI99//708+eSTAjithvIIEeVsxpWGMtrDaKNAGsoA6tNPP9WuAcbx48cLWs655AUClAEHAAaQgObzzz9XjURB6wEoNBpgs0teOVHg4eVhA+rdd9/VbvgueW41lL8lD40DQJ5//nndQxlAjRw5Uj7++GO59957S2goCygPkeBRU66WPLMp5y+ba6N9Ro0a5XcPBRB890xoKLSMc3MfbFNuAAXIxo4dqw8JvXr1kv79++vwDaAMONFa7PHsHsojdITRTNSODcLom70kDiVgARWHkxbLXbaAiuXZicO+WUDF4aTFcpf9AqqgoEDy8/O13+np6ZKXlycpKSmlxnH69Gn9LCMjw9MxnjlzRu/HvctTwu1fUVGRpKWlub712bNntb/+ZOS6kQSpWCageKL67bff9CkuNTVVsrOziyf4+PHjKnDsc0xat27dJCcnR9/zqlSpkr54+srKytLPMjMzBS7f33//LVWqVFEQ8r0BTWFhofCibNmyRb9v2bKlThLX8aId7mMK/aDwGe/p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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "Category",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Range 1",
+        "description": "Range values",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Range 2",
+        "description": "Range Value",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__3__",
+        "name": "Target",
+        "description": "Target",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__4__",
+        "name": "Value",
+        "description": "Value",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Magnitude - Bullet Graph. To show a value agains a target or range",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "titleText",
+      "value": "Bullet Chart"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show a value agains a target or range"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "barColor1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "barColor2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 24
+    },
+    {"name": "labelOffset", "value": 5}
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "fields": [
+          "__4__",
+          "__1__",
+          "__2__"
+        ]
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "height"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleY",
+      "orient": "left",
+      "domain": false,
+      "ticks": false,
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelPadding": 10
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-range-base",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "zindex": 0,
+      "encode": {
+        "update": {
+          "x": {"value": 0},
+          "x2": {"signal": "width"},
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.2
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.6
+          },
+          "fill": {
+            "signal": "'#DDDDDD'"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-range-2",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "zindex": 1,
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "signal": "0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__2__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.2
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.6
+          },
+          "fill": {
+            "signal": "'#CCCCCC'"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-range-1",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "zindex": 2,
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "signal": "0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.2
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.6
+          },
+          "fill": {
+            "signal": "'#BBBBBB'"
+          }
+        }
+      }
+    },
+    {
+      "name": "rect-target",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "zindex": 10,
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "field": "__3__",
+            "offset": -1
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__3__",
+            "offset": 1
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.25
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.5
+          },
+          "stroke": {
+            "signal": "'black'"
+          },
+          "fill": {"signal": "'black'"}
+        }
+      }
+    },
+    {
+      "name": "rect-value",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "zindex": 10,
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "scaleX",
+            "signal": "0"
+          },
+          "x2": {
+            "scale": "scaleX",
+            "field": "__4__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__0__",
+            "band": 0.4
+          },
+          "height": {
+            "scale": "scaleY",
+            "band": 0.2
+          },
+          "stroke": {
+            "signal": "barColor1"
+          },
+          "fill": {
+            "signal": "barColor1"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-value",
+      "type": "text",
+      "from": {"data": "rect-value"},
+      "zindex": 20,
+      "encode": {
+        "enter": {
+          "text": {
+            "field": "datum['__4__']"
+          },
+          "x": {
+            "field": "x2",
+            "offset": 5
+          },
+          "y": {
+            "signal": "datum.y+(datum.height/2)"
+          },
+          "fill": {
+            "signal": "barColor1"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "signal": "labelFontSize"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "label",
+          "avoidMarks": ["rect-target"],
+          "anchor": ["right", "left"],
+          "offset": [5],
+          "size": {
+            "signal": "[width, height]"
+          }
+        }
+      ]
+    }
+  ]
+}
