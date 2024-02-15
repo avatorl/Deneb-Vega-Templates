@@ -32,3 +32,8 @@ Isotype (pictogram) - To compare whole numbers
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3ca94e1b-3ecb-4bef-9ad7-ea1bfdf43026)
 
+Radar - To show values of multiple variables
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/d2a611cb-5841-4e4d-9514-b92bf3b403c9)
+
+
