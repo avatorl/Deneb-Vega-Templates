@@ -20,6 +20,10 @@ Marimekko - To show size and proportion at the same time
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/43ce7d55-62aa-4bb9-872a-b0c2934eac66)
 
+Proportional Symbol Chart - To show variations when fine difference are not so important
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/3bdd58f7-b191-4450-9e5a-1e7030ca9e92)
+
 ===
 
 Lollipop - To compare values
