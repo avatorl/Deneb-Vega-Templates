@@ -2,7 +2,7 @@
 
 Stacked Column/Bar Chart - To show part-to-whole relationship
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/fde1c2f9-76e3-43cc-9528-7d6ec36da7ac)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/dc662481-4820-4fe8-bee6-ed9dc3b9d3a8)
 
 Marimekko - To show size and proportion at the same time
 
