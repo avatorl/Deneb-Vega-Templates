@@ -40,5 +40,10 @@ Parallel Coordinates - To show multiple variables
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/f346001c-ba56-4de6-aa79-fcdf5f86b54e)
 
+Bullet Graph - To show a value against a target or range
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cf3e08e8-e539-496f-b9de-fd5fd29f3b87)
+
+
 
 
