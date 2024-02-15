@@ -66,9 +66,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ---
 
-### Magnitude 🛠️
+### Magnitude ✅
 
-[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/818049ee-c81f-4613-ad81-63e325bd2605)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/magnitude)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/94ba7db4-53b7-4e73-9e88-16679b6baa53)
 
 ---
 
