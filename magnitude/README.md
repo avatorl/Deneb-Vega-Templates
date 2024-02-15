@@ -16,6 +16,12 @@ Bar Chart (Paired) - To compare values (two series)
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/4545ba61-bda4-43a2-b933-4cfeee5bd763)
 
+Marimekko - To show size and proportion at the same time
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/43ce7d55-62aa-4bb9-872a-b0c2934eac66)
+
+===
+
 Lollipop - To compare values
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6528cce3-7de6-42b5-b8c4-d32094ffc232)
