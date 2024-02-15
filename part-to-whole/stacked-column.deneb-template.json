@@ -2,10 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "usermeta": {
     "deneb": {
-      "build": "1.5.1.0",
+      "build": "1.6.2.1",
       "metaVersion": 1,
       "provider": "vega",
-      "providerVersion": "5.23.0"
+      "providerVersion": "5.26.1"
     },
     "interactivity": {
       "tooltip": true,
@@ -18,8 +18,9 @@
       "name": "Part-to-whole - Stacked Column/Bar Chart",
       "description": "To show part-to-whole relationship",
       "author": "Andrzej Leszkiewicz",
-      "uuid": "a3303128-3ee0-4849-ba8e-f0d6a6bed0be",
-      "generated": "2023-09-16T10:27:59.273Z"
+      "uuid": "c2e5e3f9-5bcb-4e26-b4bf-c10ff380b827",
+      "generated": "2024-02-15T22:59:12.669Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
     },
     "dataset": [
       {
@@ -39,9 +40,8 @@
     ],
     "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
     "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
-    "Author": "Andrzej Leszkewicz",
-    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
-    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
   },
   "config": {},
   "description": "Part-to-whole - Stacked Column/Bar Chart. To show part-to-whole relationship.",
@@ -139,7 +139,6 @@
     {
       "name": "scaleX",
       "type": "band",
-      "domain": [1],
       "range": "width"
     }
   ],
@@ -179,7 +178,7 @@
           },
           "x": {
             "scale": "scaleX",
-            "value": "1"
+            "band": 0.25
           },
           "width": {
             "scale": "scaleX",
@@ -208,7 +207,7 @@
           },
           "x": {
             "scale": "scaleX",
-            "band": 0.25
+            "band": 0.5
           },
           "baseline": {
             "value": "middle"
