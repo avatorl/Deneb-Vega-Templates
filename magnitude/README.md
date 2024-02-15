@@ -1,4 +1,4 @@
-# Magnitude
+# Magnitude ✅
 
 Column Chart - To compare size of things
 
@@ -43,6 +43,11 @@ Parallel Coordinates - To show multiple variables
 Bullet Graph - To show a value against a target or range
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cf3e08e8-e539-496f-b9de-fd5fd29f3b87)
+
+Grouped Symbol - To compare when individual elements are important
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/a088921e-3957-4e00-a675-c9981f023ad9)
+
 
 
 
