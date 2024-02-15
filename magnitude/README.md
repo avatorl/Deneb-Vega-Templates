@@ -36,4 +36,9 @@ Radar - To show values of multiple variables
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/d2a611cb-5841-4e4d-9514-b92bf3b403c9)
 
+Parallel Coordinates - To show multiple variables
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/f346001c-ba56-4de6-aa79-fcdf5f86b54e)
+
+
 
