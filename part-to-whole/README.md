@@ -1,4 +1,4 @@
-# Part-to-Whole
+# Part-to-Whole ✅
 
 Stacked Column/Bar Chart - To show part-to-whole relationship
 
