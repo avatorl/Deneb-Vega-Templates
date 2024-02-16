@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Part-to-Whole - Treemap",
+      "description": "For hierarchical part-to-whole relationships",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "d5704f1c-01f8-4afd-bc0e-6235fc9ec5bb",
+      "generated": "2024-02-16T20:29:41.786Z",
+      "previewImageBase64PNG": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAADsdJREFUeF7tnVlsVeUWx1fpPNFSOtBSoSAUSmsHLK2Xi3BRBqEIFxS5Lzi86JPGB19MjEZjfJLEqImJ5moETVAC92JwpAxCERmkLdAWCrQU2lOgA62dT1t673+ZfbIP9HDanrPPntZOmnPY+/vW8F+/vb491Bo0MjIyQrKJAhNUIEgAmqByMo0VEIAEBJ8UEIB8kk8muwF05swZevHFF12qpKam0ocffkizZs0SpUSBURUYtQN99NFHNHPmTFq/fj1999139M4775AC0759++jLL7+kJ554gt544w1qbm6mV155hT8//fRTmj17Nr311lvU0dFBVVVV9Nxzz3kc/+abb9LSpUvdxmMf/MpmDgXGBNDJkycZlurqatqzZw+99tpr9P7779O6desIQG3atImzxbGXX36Z3nvvPXr11Vf5GDaM++CDD+jtt9/mMcuXL6dz585RQ0MDbd26lccCwilTprjGxcfHm0NBm0c5JoBQaIBx9xL3+uuvU3l5Of30008sY05ODkPy2WefMWRHjhzh/egyAA77bt++7epY6E4ACB0LEAEgZZwAZA4yxw3QWDoQlsDRAAKEX3zxBW3ZskU6kDn48BrluADq7++nd999lzsOuoe6KynXSOouMloH2rFjB18TZWdnU1ZWFr3wwgu85CnXTHIN5LVmhhqg+208wFGWMLnbMxQbYwpGABqTTDLIkwK6AySlMbcCApC566d79AKQ7iUwdwBuAN25c4c6OzsJnyEhITR58mQKCgq6J0On08n7wsLCSP19PFL09vZSREQETZo06b42BgcHOQbE421D3BiLH/yWCn5g/34bxvT19VFkZKRbrtg/MDDAMXrbhoaG2FdoaKhrKGJRYodO99swHz/wpf7uza8RjrsB1NbWRmVlZbRkyRIuWExMDHV3d/MnxBweHubvv/32Gxd90aJFDBy2pKQk3gcRMFYpHPZFRUXxMXUxv/rqK1q5ciWlpaVRS0sL20hISODP8PBwthsdHc1Pv1HcefPmER4joCg4jviUMYgL+w8fPkyFhYVs8/z583z8kUce4RxiY2PZv1Js5degYPPrr7/mp+lTp07lMV1dXWy/tLSUX6tgPmLAPsxX8gsODua8mpqaGEI8SMVc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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Author": "Andrzej Leszkewicz",
+    "License": "CC BY 4.0 (Share and Adapt with Attribution)",
+    "Inspired By (chart types)": "FT Visual Vocabulary (https://ft.com/vocabulary)"
+  },
+  "config": {},
+  "description": "Part-to-Whole - Treemap. For hierarchical part-to-whole relationships.",
+  "width": 400,
+  "height": 400,
+  "padding": 10,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "titleText",
+      "value": "Treemap"
+    },
+    {
+      "name": "subTitleText",
+      "value": "For hierarchical part-to-whole relationships"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "mainColor",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": "24"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "nest",
+          "keys": ["__0__"]
+        },
+        {
+          "type": "collect",
+          "sort": {
+            "field": "__1__",
+            "order": "descending"
+          }
+        },
+        {
+          "type": "treemap",
+          "field": "__1__",
+          "method": "resquarify",
+          "ratio": 1,
+          "paddingInner": 0,
+          "paddingOuter": 2,
+          "size": [
+            {"signal": "width"},
+            {"signal": "height"}
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleOpacity",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": [1, 0.3]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "rect-main",
+      "type": "rect",
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "fill": {
+            "signal": "mainColor"
+          },
+          "opacity": {
+            "scale": "scaleOpacity",
+            "field": "__0__"
+          }
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "x2": {"field": "x1"},
+          "y": {"field": "y0"},
+          "y2": {"field": "y1"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "rect-main"},
+      "encode": {
+        "enter": {
+          "text": {
+            "signal": "datum.datum['__0__']"
+          },
+          "fontSize": {"signal": "32"},
+          "fill": {
+            "signal": "labelColor"
+          },
+          "x": {
+            "signal": "(datum.x2-datum.x)/2+datum.x"
+          },
+          "y": {
+            "signal": "(datum.y2-datum.y)/2+datum.y"
+          },
+          "align": {
+            "signal": "'center'"
+          }
+        }
+      }
+    }
+  ]
+}
