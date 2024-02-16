@@ -30,6 +30,12 @@ Treemap - For hierarchical part-to-whole relationships
 
 ---
 
+Voronoi - To show points as areas
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/bd9d875b-cc82-4c75-bb8b-bf17f71bc51e)
+
+---
+
 Gridplot - To show % value (whole numbers)
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e8f1ee4d-ef64-45e6-a7a1-f4a6544f0983)
