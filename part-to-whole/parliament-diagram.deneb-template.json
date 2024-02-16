@@ -1,0 +1,522 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Part-to-Whole - Arc (Parliament Diagram)",
+      "description": "To visualize parliamentary composition by number of seats",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "4f78a15c-3a88-4afd-affe-2fdb67d9e34c",
+      "generated": "2024-02-16T22:24:03.035Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Index",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Party",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Seats",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Part-to-Whole - Arc (Parliament Diagram). To visualize parliamentary composition by number of seats.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "description": "based on container width",
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "description": "based on container height",
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "radius",
+      "description": "radius of the outer ring",
+      "update": "width*0.5"
+    },
+    {
+      "name": "arcSeatsCount",
+      "description": "number of seats (dots), whole number",
+      "update": "seatsCountx[1]"
+    },
+    {
+      "name": "seatWidthPct",
+      "description": "seat (dot) width",
+      "value": 1.05
+    },
+    {
+      "name": "arcInnerSpace",
+      "description": "Inner radius of the arc; edit this value until total number of seats is correct, [0, 1]",
+      "value": 0.65
+    },
+    {
+      "name": "arcAngle",
+      "description": "[start, end], where Start=[0, 2*PI], End=[0, 2*PI]; [1.5*PI, 0.5*PI] - half circle",
+      "update": "[1.5*PI, 0.5*PI]"
+    },
+    {
+      "name": "arcAngleWidth",
+      "description": "Arc angle width in Radians",
+      "update": "arcAngle[0]-arcAngle[1]"
+    },
+    {
+      "name": "radiusInner",
+      "description": "radius of the inner ring",
+      "update": "radius*arcInnerSpace"
+    },
+    {
+      "name": "arcAreaOuter",
+      "description": "arc area (with white spaces between dots)",
+      "update": "PI*radius*radius*arcAngleWidth/(2*PI)"
+    },
+    {
+      "name": "arcAreaInner",
+      "description": "arc area (inner circle / empty space)",
+      "update": "PI*radiusInner*radiusInner*arcAngleWidth/(2*PI)"
+    },
+    {
+      "name": "arcArea",
+      "description": "arc area (excluding inner empty space))",
+      "update": "arcAreaOuter-arcAreaInner"
+    },
+    {
+      "name": "seatPlaceArea",
+      "description": "seat (dot and surrounding white space) area",
+      "update": "arcArea/arcSeatsCount"
+    },
+    {
+      "name": "seatPlaceWidth",
+      "description": "seat place (dot and surrounding white space) width",
+      "update": "sqrt(seatPlaceArea/PI)*2"
+    },
+    {
+      "name": "seatRadius",
+      "description": "seat (dot) radius",
+      "update": "seatPlaceWidth*seatWidthPct/2"
+    },
+    {
+      "name": "r1Count",
+      "description": "seats in a row",
+      "update": "floor((radius*arcAngleWidth)/seatPlaceWidth)"
+    },
+    {
+      "name": "r2Count",
+      "description": "seats in a row",
+      "update": "floor(((radius-seatPlaceWidth*1)*arcAngleWidth)/seatPlaceWidth)"
+    },
+    {
+      "name": "r3Count",
+      "description": "seats in a row",
+      "update": "floor(((radius-seatPlaceWidth*2)*arcAngleWidth)/seatPlaceWidth)"
+    },
+    {
+      "name": "r4Count",
+      "description": "seats in a row",
+      "update": "floor(((radius-seatPlaceWidth*3)*arcAngleWidth)/seatPlaceWidth)"
+    },
+    {
+      "name": "r5Count",
+      "description": "seats in a row",
+      "update": "floor(((radius-seatPlaceWidth*4)*arcAngleWidth)/seatPlaceWidth)"
+    },
+    {
+      "name": "titleText",
+      "value": "Arc (Parliament Diagram)"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show parliamentary composition by number of seats"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "color1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "color2",
+      "init": "pbiColor(2)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": "24"
+    },
+    {
+      "name": "seatLabelFontSize",
+      "value": "8"
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["party"],
+          "field": "__2__",
+          "sort": {
+            "field": "__0__",
+            "order": "ascending"
+          }
+        },
+        {
+          "type": "extent",
+          "field": "y1",
+          "signal": "seatsCountx"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.y1+1",
+          "as": "y"
+        }
+      ]
+    },
+    {
+      "name": "data-r1",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 1,
+          "stop": {"signal": "r1Count"},
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "radius",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "r1Count",
+          "as": "count"
+        }
+      ]
+    },
+    {
+      "name": "data-r2",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 1,
+          "stop": {"signal": "r2Count"},
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "radius-seatPlaceWidth*1",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "r2Count",
+          "as": "count"
+        }
+      ]
+    },
+    {
+      "name": "data-r3",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 1,
+          "stop": {"signal": "r3Count"},
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "radius-seatPlaceWidth*2",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "r3Count",
+          "as": "count"
+        }
+      ]
+    },
+    {
+      "name": "data-r4",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 1,
+          "stop": {"signal": "r4Count"},
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "radius-seatPlaceWidth*3",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "r4Count",
+          "as": "count"
+        }
+      ]
+    },
+    {
+      "name": "data-r5",
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 1,
+          "stop": {"signal": "r5Count"},
+          "as": "id"
+        },
+        {
+          "type": "formula",
+          "expr": "radius-seatPlaceWidth*4",
+          "as": "r"
+        },
+        {
+          "type": "formula",
+          "expr": "r5Count",
+          "as": "count"
+        }
+      ]
+    },
+    {
+      "name": "data-r-all",
+      "source": [
+        "data-r1",
+        "data-r2",
+        "data-r3",
+        "data-r4",
+        "data-r5"
+      ],
+      "transform": [
+        {
+          "type": "collect",
+          "sort": {
+            "field": ["id"],
+            "order": ["ascending"]
+          }
+        },
+        {
+          "type": "window",
+          "ops": ["row_number"],
+          "as": ["index"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.id/datum.count",
+          "as": "idx"
+        },
+        {
+          "type": "collect",
+          "sort": {
+            "field": ["idx"],
+            "order": ["ascending"]
+          }
+        },
+        {
+          "type": "window",
+          "ops": ["row_number"],
+          "as": ["index"]
+        },
+        {
+          "type": "formula",
+          "expr": "scale('scaleColor',datum.index)",
+          "as": "color"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "x"
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "y"
+      },
+      "range": [
+        {"signal": "height*0.5"},
+        {"signal": "height*1"}
+      ]
+    },
+    {
+      "name": "scaleColor",
+      "type": "threshold",
+      "domain": [66, 114, 126],
+      "range": [
+        {"signal": "pbiColor(0)"},
+        {"signal": "pbiColor(2)"},
+        {"signal": "'grey'"}
+      ]
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "text-seat",
+      "comment": "using invisible text mark to calcualte bounds.x1 and bounds.y1, because text mark has theta property",
+      "type": "text",
+      "from": {"data": "data-r-all"},
+      "zindex": 1,
+      "encode": {
+        "enter": {
+          "x": {"signal": "width/2"},
+          "y": {
+            "signal": "height/2+150"
+          },
+          "align": {"value": "center"},
+          "baseline": {
+            "value": "middle"
+          },
+          "radius": {
+            "signal": "datum.r"
+          },
+          "theta": {
+            "signal": "arcAngle[0]+arcAngleWidth*(datum.id/datum.count)"
+          },
+          "fontSize": {
+            "signal": "seatLabelFontSize"
+          },
+          "text": {
+            "signal": "datum.index"
+          },
+          "fill": {"signal": "'white'"}
+        }
+      }
+    },
+    {
+      "name": "symbol-seat",
+      "type": "symbol",
+      "shape": "circle",
+      "from": {"data": "text-seat"},
+      "zindex": 0,
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "(datum.bounds.x1+datum.bounds.x2)/2"
+          },
+          "y": {
+            "signal": "(datum.bounds.y1+datum.bounds.y2)/2"
+          },
+          "size": {
+            "signal": "PI*seatRadius*seatRadius"
+          },
+          "fill": {
+            "signal": "datum.datum['color']"
+          }
+        }
+      }
+    },
+    {
+      "name": "text-total-seats",
+      "type": "text",
+      "zindex": 1,
+      "encode": {
+        "enter": {
+          "x": {"signal": "width/2"},
+          "y": {
+            "signal": "height/2+100"
+          },
+          "align": {"value": "center"},
+          "baseline": {
+            "value": "middle"
+          },
+          "radius": {
+            "signal": "datum.r"
+          },
+          "theta": {
+            "signal": "arcAngleWidth[0]+arcAngleWidth*datum.id/datum.count"
+          },
+          "fontSize": {"value": 40},
+          "fill": {"signal": "'grey'"},
+          "text": {
+            "signal": "length(data('data-r-all'))+' seats'"
+          }
+        }
+      }
+    }
+  ]
+}
