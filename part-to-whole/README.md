@@ -28,6 +28,7 @@ Treemap - For hierarchical part-to-whole relationships
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/b568ca89-b176-4f49-a079-8f073109f953)
 
+---
 
 Gridplot - To show % value (whole numbers)
 
