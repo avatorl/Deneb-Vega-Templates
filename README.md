@@ -2,7 +2,7 @@
 
 Data visualization templates for Deneb, custom visual for Power BI. Developed using Vega (not Vega-Lite) visualization grammar.
 
-The chart type selection for the templates has been inspired by the Financial Times Visual Vocabulary.
+The chart type selection for the templates has been inspired by [the Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary).
 
 Live Power BI report with all the templates: https://powerofbi.org/deneb-vega-templates/
 
