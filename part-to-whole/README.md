@@ -36,6 +36,12 @@ Voronoi - To show points as areas
 
 ---
 
+Arc (Parliament Diagram) - To visualize parliamentary composition by number of seats
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/16ebcfa8-bd51-4a52-8bbf-d858fea445fa)
+
+---
+
 Gridplot - To show % value (whole numbers)
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e8f1ee4d-ef64-45e6-a7a1-f4a6544f0983)
