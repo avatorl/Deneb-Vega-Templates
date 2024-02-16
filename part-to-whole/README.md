@@ -47,3 +47,14 @@ Gridplot - To show % value (whole numbers)
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/e8f1ee4d-ef64-45e6-a7a1-f4a6544f0983)
 
 ---
+
+Venn - For schematic representation
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/0f7a9a24-9986-41f6-b923-8fdba52b8050)
+
+---
+
+Waterfall - To show part-to-whole when some compoents are negative
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/bedcda49-c1a0-42c8-b9b6-d0370b969dbf)
+
