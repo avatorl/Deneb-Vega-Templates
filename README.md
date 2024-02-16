@@ -72,9 +72,9 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ---
 
-### Part-to-Whole 🛠️
+### Part-to-Whole ✅
 
-[![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/feee590d-bb96-44eb-8eeb-cdd92ada22dc)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/part-to-whole)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/4a4e30f8-23ae-4fc1-a2e2-f5d452fea5aa)
 
 ---
 
