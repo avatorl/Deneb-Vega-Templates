@@ -1,0 +1,201 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Part-to-Whole - Voronoi",
+      "description": "To show points as areas",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "cb13f3e3-ef0c-4286-83c7-c4970cb687a1",
+      "generated": "2024-02-16T22:21:03.424Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Category",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Value 1",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value 2",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Part-to-Whole - Voronoi. To show points as areas.",
+  "width": 400,
+  "height": 400,
+  "padding": 10,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "titleText",
+      "value": "Voronoi"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show part-to-whole data"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "mainColor",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "secondColor",
+      "init": "pbiColor(3)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": "24"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    }
+  ],
+  "data": [{"name": "dataset"}],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "linear",
+      "domainMin": 0,
+      "domainMax": 10,
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domainMin": 0,
+      "domainMax": 10,
+      "domain": {
+        "data": "dataset",
+        "field": "__2__"
+      },
+      "range": "height"
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [],
+  "marks": [
+    {
+      "name": "symbol-point",
+      "type": "symbol",
+      "zindex": 1,
+      "from": {"data": "dataset"},
+      "encode": {
+        "enter": {
+          "fill": {"value": "black"},
+          "size": {"value": 100},
+          "x": {
+            "scale": "scaleX",
+            "field": "__1__"
+          },
+          "y": {
+            "scale": "scaleY",
+            "field": "__2__"
+          },
+          "tooltip": {"signal": "datum"}
+        }
+      }
+    },
+    {
+      "name": "path-voronoi-area",
+      "type": "path",
+      "zindex": 0,
+      "from": {"data": "symbol-point"},
+      "encode": {
+        "enter": {
+          "stroke": {
+            "signal": "'white'"
+          },
+          "strokeWidth": {
+            "signal": "3"
+          },
+          "fill": {
+            "signal": "mainColor"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "voronoi",
+          "x": "datum.x",
+          "y": "datum.y",
+          "size": [
+            {"signal": "width"},
+            {"signal": "height"}
+          ]
+        }
+      ]
+    }
+  ]
+}
