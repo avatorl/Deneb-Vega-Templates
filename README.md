@@ -62,6 +62,10 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 ### Change over Time 🛠️
 
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/4dd41cf0-bef7-41a6-bf2b-bb1369d181da)
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/168afcbd-2a83-4606-a02d-790047550355)
+
 [![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/6deec789-c7f3-4388-b276-d17f6599399f)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/change-over-time)
 
 ---
