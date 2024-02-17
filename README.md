@@ -8,6 +8,12 @@ Live Power BI report with all the templates: https://powerofbi.org/deneb-vega-te
 
 Download PBIX file: [will be added later]
 
+The templates are basic examples of Deneb/Vega data visualizations that can be used as a starting point in the development of custom data visualizations.
+
+I also have examples of highly customized and creative Deneb/Vega data visualizations: https://github.com/avatorl/Deneb-Vega
+
+Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
+
 ## Author of the templates
 
 Andrzej Leszkiewicz
@@ -15,12 +21,6 @@ Andrzej Leszkiewicz
 - YouTube: [@power-of-bi](https://www.youtube.com/@power-of-bi)
 - Twitter: [@avatorl](https://twitter.com/avatorl)
 - LinkedIn: [@avatorl](https://www.linkedin.com/in/avatorl/)
-
-The templates are basic examples of Deneb/Vega data visualizations that can be used as a starting point in the development of custom data visualizations.
-
-I also have examples of highly customized and creative Deneb/Vega data visualizations: https://github.com/avatorl/Deneb-Vega
-
-Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
 
 ### Deneb Vega Help
 
