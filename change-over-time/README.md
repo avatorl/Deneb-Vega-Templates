@@ -1,8 +1,8 @@
 # Change over Time
 
-Line
+Line - To show changes over time
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/5622a63a-12c1-46d9-a7e4-91b7471c0302)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/606673cf-3821-4cd7-a3a9-e0560eebf041)
 
 ---
 
