@@ -12,6 +12,12 @@ Column - To show changes over time
 
 ---
 
+Column and Line - To show changes over time
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/cb16b9de-1c3a-40c1-9284-03d5d3fba0dd)
+
+---
+
 Candlestick
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/089b3ddc-10b1-426f-8606-e83f772a066c)
