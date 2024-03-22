@@ -1,0 +1,265 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.26.1"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Change over Time - Area",
+      "description": "To show changes to total and components",
+      "author": "Andrzej Leszkiewicz",
+      "uuid": "a1c5aac5-ecd2-42b2-844e-0a6bc0fd3dd3",
+      "generated": "2024-03-22T17:43:15.561Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Date",
+        "description": "",
+        "type": "dateTime",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Category",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__2__",
+        "name": "Value",
+        "description": "",
+        "type": "numeric",
+        "kind": "column"
+      }
+    ],
+    "Project": "Deneb Vega Templates by Andrzej Leszkiewicz",
+    "Github": "https://github.com/avatorl/Deneb-Vega-Templates/",
+    "Copyright": "Andrzej Leszkiewicz",
+    "License": "MIT Expat License (https://en.wikipedia.org/wiki/MIT_License)"
+  },
+  "config": {},
+  "description": "Change over Time - Area. To show changes to total and components.",
+  "padding": 15,
+  "autosize": "fit",
+  "background": "white",
+  "signals": [
+    {
+      "name": "width",
+      "value": 400,
+      "update": "containerSize()[0]-30"
+    },
+    {
+      "name": "height",
+      "value": 400,
+      "update": "containerSize()[1]-30"
+    },
+    {
+      "name": "titleText",
+      "value": "Area"
+    },
+    {
+      "name": "subTitleText",
+      "value": "To show changes to total and components"
+    },
+    {
+      "name": "textTitle",
+      "value": "Connected Scatterplot"
+    },
+    {
+      "name": "titleColor",
+      "value": "#333333"
+    },
+    {
+      "name": "titleOffset",
+      "description": "Blank space between the subtitle and the chart, px",
+      "value": 20
+    },
+    {
+      "name": "subtitleFontSize",
+      "value": 16
+    },
+    {
+      "name": "subtitlePadding",
+      "description": "Blank space between the title and the subtitle, px",
+      "value": 10
+    },
+    {
+      "name": "color1",
+      "init": "pbiColor(0)"
+    },
+    {
+      "name": "labelColor",
+      "value": "#666666"
+    },
+    {
+      "name": "titleFontSize",
+      "value": 24
+    },
+    {
+      "name": "labelFontSize",
+      "value": 22
+    },
+    {"name": "labelOffset", "value": 5},
+    {
+      "name": "interpolate",
+      "value": "natural",
+      "description": "options:basis,bundle,cardinal,catmull-rom,linear,monotone,natural,step,step-after,step-before"
+    },
+    {
+      "name": "markerSymbolSize",
+      "value": 75
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["__0__"],
+          "sort": {"field": "__1__"},
+          "field": "__2__"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleX",
+      "type": "time",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__"
+      },
+      "range": "width"
+    },
+    {
+      "name": "scaleY",
+      "type": "linear",
+      "domain": {
+        "data": "dataset",
+        "field": "y1"
+      },
+      "range": [
+        {"signal": "height-20"},
+        20
+      ],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "scaleOpacity",
+      "type": "ordinal",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "range": [0.5, 0.7, 0.9],
+      "reverse": true
+    }
+  ],
+  "title": {
+    "text": {"signal": "titleText"},
+    "anchor": "start",
+    "offset": {"signal": "titleOffset"},
+    "color": {"signal": "titleColor"},
+    "fontSize": {
+      "signal": "titleFontSize"
+    },
+    "subtitle": {
+      "signal": "subTitleText"
+    },
+    "subtitlePadding": {
+      "signal": "subtitlePadding"
+    },
+    "subtitleFontSize": {
+      "signal": "subtitleFontSize"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleX",
+      "orient": "bottom",
+      "domain": false,
+      "ticks": true,
+      "tickCount": {
+        "interval": "day",
+        "step": 1
+      },
+      "grid": false,
+      "format": "%Y-%m-%d",
+      "labelFontSize": {
+        "signal": "labelFontSize"
+      },
+      "labelColor": {
+        "signal": "labelColor"
+      },
+      "labelPadding": 10,
+      "labelOverlap": true
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "series",
+          "data": "dataset",
+          "groupby": "__1__"
+        }
+      },
+      "marks": [
+        {
+          "name": "line-value",
+          "type": "area",
+          "from": {"data": "series"},
+          "encode": {
+            "update": {
+              "interpolate": {
+                "value": "monotone"
+              },
+              "x": {
+                "scale": "scaleX",
+                "field": "__0__"
+              },
+              "y": {
+                "scale": "scaleY",
+                "field": "y0"
+              },
+              "y2": {
+                "scale": "scaleY",
+                "field": "y1"
+              },
+              "stroke": {
+                "signal": "color1"
+              },
+              "strokeWidth": {
+                "signal": "1"
+              },
+              "fill": {
+                "signal": "color1"
+              },
+              "opacity": {
+                "scale": "scaleOpacity",
+                "field": "__1__"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
