@@ -32,7 +32,9 @@ Slope - To show change over time, simplified into 2 points
 
 Candlestick
 
-![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/089b3ddc-10b1-426f-8606-e83f772a066c)
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/d28fb2e3-e82b-4a83-8d99-6ae7143253ab)
 
 ---
+
+
 
