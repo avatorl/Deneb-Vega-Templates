@@ -18,6 +18,12 @@ Column and Line - To show changes over time
 
 ---
 
+Area - To show changes to total and components
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/91bb381d-87ed-4d1b-bda5-39ad3c5105e0)
+
+---
+
 Slope - To show change over time, simplified into 2 points
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ca5fe47e-7478-4971-a2c8-45d471f992c1)
