@@ -18,6 +18,12 @@ Column and Line - To show changes over time
 
 ---
 
+Slope - To show change over time, simplified into 2 points
+
+![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/ca5fe47e-7478-4971-a2c8-45d471f992c1)
+
+---
+
 Candlestick
 
 ![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/089b3ddc-10b1-426f-8606-e83f772a066c)
