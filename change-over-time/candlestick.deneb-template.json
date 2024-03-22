@@ -240,7 +240,7 @@
             "scale": "scaleX",
             "field": "__4__"
           },
-          "width": {"signal": "10"},
+          "width": {"signal": "12"},
           "fill": {
             "signal": "datum['__0__']>datum['__3__'] ? color1 :color2"
           },
