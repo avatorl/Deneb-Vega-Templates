@@ -14,6 +14,10 @@ I also have examples of highly customized and creative Deneb/Vega data visualiza
 
 Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
 
+## Working with the templates
+
+Read the official Deneb website: https://deneb-viz.github.io/templates
+
 ## Author of the templates
 
 Andrzej Leszkiewicz
