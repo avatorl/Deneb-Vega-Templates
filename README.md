@@ -10,7 +10,7 @@ Read the official Deneb website: https://deneb-viz.github.io/templates
 
 Do you need help with the templates or with any other Deneb/Vega visualizations?
 
-Create an issue at https://github.com/avatorl/Deneb-Vega-Help/ to get assistance from the author.
+Create an issue at https://github.com/avatorl/Deneb-Vega-Help/ to get assistance from the author of the templates.
 
 ## About the Templates
 
@@ -38,7 +38,7 @@ Vega visualization grammar: https://vega.github.io/vega/
 
 Examples of highly customized Vega data visualizations: https://github.com/avatorl/Deneb-Vega
 
-## Chart Types
+## Chart Types / Deneb Templates in this Repository
 
 ---
 
