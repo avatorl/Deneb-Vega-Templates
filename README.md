@@ -1,16 +1,18 @@
 # Power BI Deneb Vega Templates by Andrzej Leszkiewicz
 
-Data visualization templates for Deneb, a custom visual for Power BI.
-
-The templates are examples of Vega (not Vega-Lite) data visualizations that can be used in Deneb as is or as a starting point for developing more advanced custom data visualizations.
+Data visualization templates for Deneb, a custom visual for Power BI. The templates are examples of Vega (not Vega-Lite) data visualizations that can be used in Deneb as is or as a starting point for developing more advanced custom data visualizations.
 
 ## Working with Deneb Templates
 
 Read the official Deneb website: https://deneb-viz.github.io/templates
 
+### Support
+
+Do you need help with the templates or with any other Deneb/Vega visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
+
 ## About the Templates
 
-The chart type selection for the templates is based on [the Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary).
+The chart type selection for the templates is based on [the Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary)
 
 Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
 
@@ -21,10 +23,6 @@ Andrzej Leszkiewicz
 - YouTube: [@power-of-bi](https://www.youtube.com/@power-of-bi)
 - Twitter: [@avatorl](https://twitter.com/avatorl)
 - LinkedIn: [@avatorl](https://www.linkedin.com/in/avatorl/)
-
-### Deneb Vega Help
-
-Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
 
 ## Other Resources
 
