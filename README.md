@@ -28,6 +28,20 @@ Subscribe / Follow
 
 Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
 
+## Other Resources
+
+Financial Times Visual Vocabulary: https://ft.com/vocabulary
+
+Deneb (custom visual for Power BI): https://deneb-viz.github.io/
+
+Vega visualization grammar: https://vega.github.io/vega/
+
+Examples of highly customized Vega data visualizations: https://github.com/avatorl/Deneb-Vega
+
+## Sponsorship
+
+If I helped you with what you needed for a commercial projects or if you just want to say thank you, feel free to click the Sponsor button.
+
 ---
 
 ### Deviation ✅
@@ -81,22 +95,6 @@ Power BI report with example charts for all the templates: https://powerofbi.org
 ### Flow ✅
 
 [![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/83a36f70-da2e-4579-8679-fb76223c9bb3)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/flow)
-
----
-
-## Other Resources
-
-Financial Times Visual Vocabulary: https://ft.com/vocabulary
-
-Deneb (custom visual for Power BI): https://deneb-viz.github.io/
-
-Vega visualization grammar: https://vega.github.io/vega/
-
-Examples of highly customized Vega data visualizations: https://github.com/avatorl/Deneb-Vega
-
-## Sponsorship
-
-If I helped you with what you needed for a commercial projects or if you just want to say thank you, feel free to click the Sponsor button.
 
 ---
 
