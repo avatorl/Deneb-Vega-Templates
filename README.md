@@ -1,24 +1,20 @@
 # Power BI Deneb Vega Templates by Andrzej Leszkiewicz
 
-Data visualization templates for Deneb, custom visual for Power BI. Developed using Vega (not Vega-Lite) visualization grammar.
+Data visualization templates for Deneb, a custom visual for Power BI.
 
-The chart type selection for the templates has been inspired by [the Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary).
+The templates are examples of Vega (not Vega-Lite) data visualizations that can be used in Deneb as is or as a starting point for developing more advanced custom data visualizations.
 
-Live Power BI report with all the templates: https://powerofbi.org/deneb-vega-templates/
-
-Download PBIX file: [will be added later]
-
-The templates are basic examples of Deneb/Vega data visualizations that can be used as a starting point in the development of custom data visualizations.
-
-I also have examples of highly customized and creative Deneb/Vega data visualizations: https://github.com/avatorl/Deneb-Vega
-
-Read more about Deneb and Vega in Power BI: https://powerofbi.org/dataviz-galaxy-power-bi-deneb-vega/
-
-## Working with the templates
+## Working with Deneb Templates
 
 Read the official Deneb website: https://deneb-viz.github.io/templates
 
-## Author of the templates
+## About the Templates
+
+The chart type selection for the templates is based on [the Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary).
+
+Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
+
+## Author of the Templates
 
 Andrzej Leszkiewicz
 - Website (blog): [Power of Business Intelligence](https://powerofbi.org/)
@@ -30,13 +26,15 @@ Andrzej Leszkiewicz
 
 Do you need help with Deneb/Vega data visualizations? See https://github.com/avatorl/Deneb-Vega-Help/
 
-## External Resources
+## Other Resources
 
 Financial Times Visual Vocabulary: https://ft.com/vocabulary
 
 Deneb (custom visual for Power BI): https://deneb-viz.github.io/
 
 Vega visualization grammar: https://vega.github.io/vega/
+
+Examples of highly customized Vega data visualizations: https://github.com/avatorl/Deneb-Vega
 
 ## Chart Types
 
