@@ -24,10 +24,6 @@ Andrzej Leszkiewicz
 
 Subscribe / Follow
 
-## Chart Types / Deneb Templates in this Repository
-
-Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
-
 ## Other Resources
 
 Financial Times Visual Vocabulary: https://ft.com/vocabulary
@@ -41,6 +37,10 @@ Examples of highly customized Vega data visualizations: https://github.com/avato
 ## Sponsorship
 
 If I helped you with what you needed for a commercial projects or if you just want to say thank you, feel free to click the Sponsor button.
+
+## Chart Types / Deneb Templates in this Repository
+
+Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
 
 ---
 
