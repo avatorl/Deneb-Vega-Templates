@@ -36,7 +36,7 @@ Examples of highly customized Vega data visualizations: https://github.com/avato
 
 ## Sponsorship
 
-If I helped you with what you needed for a commercial projects or if you just want to say thank you, feel free to click the Sponsor button.
+If one of the templates really helped you (you have used the code for a commercial projects) or if you just want to say thank you, feel free to click the Sponsor button.
 
 ## Chart Types / Deneb Templates in this Repository
 
