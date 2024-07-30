@@ -32,7 +32,7 @@ Deneb (custom visual for Power BI): https://deneb-viz.github.io/
 
 Vega visualization grammar: https://vega.github.io/vega/
 
-Examples of highly customized Vega data visualizations: https://github.com/avatorl/Deneb-Vega
+Examples of highly customized Vega data visualizations: https://github.com/avatorl/DataViz-Vega
 
 ## Sponsorship
 
