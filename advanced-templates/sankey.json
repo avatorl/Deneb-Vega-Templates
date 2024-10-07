@@ -1,1 +1,1193 @@
-...
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Real World Fake Data (#RWFD) - HR Cross-Functional Mobility",
+  "usermeta": {
+    "information": {
+      "uuid": "9091f2e6-f1d6-4810-934a-0f2acbb419c7",
+      "generated": "2024-10-07T14:06:10.997Z",
+      "previewImageBase64PNG": "data:image/png;base64,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",
+      "name": "Sankey",
+      "description": "Sankey diagram to show movement between departments, including newcomers and leavers. Used for https://powerofbi.org/hr ",
+      "author": "Andrzej Leszkiewicz"
+    },
+    "deneb": {
+      "build": "1.7.1.0",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.30.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": false,
+      "selection": false,
+      "selectionMode": "simple",
+      "highlight": false,
+      "dataPointLimit": 50
+    },
+    "config": "{}",
+    "dataset": [
+      {
+        "key": "__1__",
+        "name": "id",
+        "description": "employee id",
+        "kind": "column",
+        "type": "text"
+      },
+      {
+        "key": "__3__",
+        "name": "current_department",
+        "description": "current department",
+        "kind": "column",
+        "type": "text"
+      },
+      {
+        "key": "__2__",
+        "name": "previous_department",
+        "description": "previous department (can be the same as current_department if there were no movements)",
+        "kind": "column",
+        "type": "text"
+      },
+      {
+        "key": "__0__",
+        "name": "date_yearmonth",
+        "description": "period",
+        "kind": "column",
+        "type": "dateTime"
+      }
+    ]
+  },
+  "padding": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "autosize": "fit",
+  "height": 340,
+  "width": 1000,
+  "background": "#e4e4eb",
+  "config": {
+    "title": {
+      "font": "Tahoma",
+      "fontSize": 16,
+      "subtitleFont": "Tahoma",
+      "subtitleFontSize": 14
+    },
+    "axis": {
+      "labelFont": "Tahoma",
+      "labelColor": "#666666",
+      "domainColor": "#666666",
+      "domainWidth": 0.5
+    },
+    "text": {
+      "font": "Tahoma"
+    }
+  },
+  "signals": [
+    {
+      "name": "stripe",
+      "description": "grey with light-grey stripes",
+      "update": "pbiPatternSVG('diagonal-stripe-4', '#999999', '#afafaf')"
+    },
+    {
+      "name": "sankeyShift",
+      "value": 3
+    },
+    {
+      "name": "sankeyGroupHeight",
+      "value": 305
+    },
+    {
+      "name": "sankeyGroupWidth",
+      "value": 970
+    },
+    {
+      "name": "sankeyMonthWidth",
+      "value": 146
+    },
+    {
+      "name": "colorNew",
+      "description": "color for newcomers",
+      "value": "#1f78b4"
+    },
+    {
+      "name": "colorLeft",
+      "description": "color for leavers",
+      "value": "#d95f02"
+    },
+    {
+      "name": "colorNeutral",
+      "value": "#666666"
+    },
+    {
+      "name": "colorLabels",
+      "value": "#666666"
+    },
+    {
+      "name": "sankeyOpacity",
+      "value": 0.85
+    },
+    {
+      "name": "sankeyOpacityDisabled",
+      "value": "0.3"
+    }
+  ],
+  "data": [
+    {
+      "name": "dataset"
+    },
+    {
+      "name": "data-aggregated",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "__2__",
+            "__2__",
+            "__3__",
+            "__3__"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "loser",
+          "expr": "datum['__2__']"
+        },
+        {
+          "type": "formula",
+          "as": "gainer",
+          "expr": "datum['__3__']"
+        },
+        {
+          "type": "formula",
+          "as": "internal",
+          "expr": "datum['__2__']==datum['__3__']?1:0"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-base-previous",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "year(datum['__0__'])==2021&&month(datum['__0__'])==10"
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__2__",
+            "__2__"
+          ]
+        },
+        {
+          "type": "filter",
+          "expr": "datum['__2__']!='Newcomer'"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-base-current",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "year(datum['__0__'])==2022&&month(datum['__0__'])==3"
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__3__",
+            "__3__"
+          ]
+        },
+        {
+          "type": "filter",
+          "expr": "datum['__3__']!='Left Company'"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-d-previous",
+      "source": "data-structure-base-previous",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__2__"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        },
+        {
+          "type": "stack",
+          "field": "count",
+          "groupby": [
+            "type"
+          ],
+          "sort": {
+            "field": [
+              "__2__"
+            ]
+          },
+          "as": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "type",
+          "expr": "'1 - Departments_Previous'"
+        },
+        {
+          "type": "formula",
+          "as": "index",
+          "expr": "1"
+        },
+        {
+          "type": "formula",
+          "as": "org",
+          "expr": "datum['__2__']"
+        },
+        {
+          "type": "extent",
+          "field": "x2",
+          "signal": "extPrev"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-t-previous",
+      "source": "data-structure-base-previous",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "sort",
+          "expr": "(split(datum['__2__'],' ')[1])"
+        },
+        {
+          "type": "stack",
+          "field": "count",
+          "groupby": [
+            "type"
+          ],
+          "sort": {
+            "field": [
+              "__2__",
+              "sort"
+            ]
+          },
+          "as": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "type",
+          "expr": "'2 - Teams_Previous'"
+        },
+        {
+          "type": "formula",
+          "as": "index",
+          "expr": "2"
+        },
+        {
+          "type": "formula",
+          "as": "org",
+          "expr": "datum['__2__']"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-d-current",
+      "source": "data-structure-base-current",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__3__"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        },
+        {
+          "type": "stack",
+          "field": "count",
+          "groupby": [
+            "type"
+          ],
+          "sort": {
+            "field": [
+              "__3__"
+            ]
+          },
+          "as": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "type",
+          "expr": "'3 - Departments_Current'"
+        },
+        {
+          "type": "formula",
+          "as": "index",
+          "expr": "5"
+        },
+        {
+          "type": "formula",
+          "as": "org",
+          "expr": "datum['__3__']"
+        },
+        {
+          "type": "extent",
+          "field": "x2",
+          "signal": "extCurr"
+        }
+      ]
+    },
+    {
+      "name": "data-structure-t-current",
+      "source": "data-structure-base-current",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "sort",
+          "expr": "(split(datum['__3__'],' ')[1])"
+        },
+        {
+          "type": "stack",
+          "field": "count",
+          "groupby": [
+            "type"
+          ],
+          "sort": {
+            "field": [
+              "__3__",
+              "sort"
+            ]
+          },
+          "as": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "type",
+          "expr": "'4 - Teams_Current'"
+        },
+        {
+          "type": "formula",
+          "as": "index",
+          "expr": "4"
+        },
+        {
+          "type": "formula",
+          "as": "org",
+          "expr": "datum['__3__']"
+        }
+      ]
+    },
+    {
+      "name": "data-department-previous-size",
+      "source": "data-aggregated",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "__2__"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "size"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "key",
+          "expr": "datum['__0__']+'|'+datum['__2__']"
+        }
+      ]
+    },
+    {
+      "name": "data-major",
+      "source": "data-aggregated",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "key",
+          "expr": "datum['__0__']+'|'+datum['__2__']"
+        },
+        {
+          "type": "lookup",
+          "from": "data-department-previous-size",
+          "key": "key",
+          "fields": [
+            "key"
+          ],
+          "values": [
+            "size"
+          ],
+          "as": [
+            "department_size"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "size",
+          "expr": "datum.department_size"
+        }
+      ]
+    },
+    {
+      "name": "data-major-movements",
+      "source": "data-major",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['__2__']!=datum['__3__']||datum['__2__']!=datum['__3__']"
+        }
+      ]
+    },
+    {
+      "name": "data-pairs-by-month",
+      "source": "data-major-movements",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "loser",
+            "gainer",
+            "internal"
+          ],
+          "fields": [
+            "count",
+            "size"
+          ],
+          "ops": [
+            "sum",
+            "average"
+          ],
+          "as": [
+            "count",
+            "size"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "movement",
+          "expr": "datum.internal==1 ? '┇ '+datum.loser+' ┇' : datum.loser+' → '+datum.gainer"
+        },
+        {
+          "type": "formula",
+          "as": "churn_rate",
+          "expr": "datum.count/datum.size"
+        },
+        {
+          "type": "formula",
+          "as": "value",
+          "expr": "datum.count"
+        }
+      ]
+    },
+    {
+      "name": "data-pairs",
+      "source": "data-pairs-by-month",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "loser",
+            "gainer",
+            "internal",
+            "movement"
+          ],
+          "fields": [
+            "count",
+            "churn_rate"
+          ],
+          "ops": [
+            "sum",
+            "average"
+          ],
+          "as": [
+            "count",
+            "churn_rate"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "value",
+          "expr": "datum.count"
+        }
+      ]
+    },
+    {
+      "name": "data-pairs-by-month-sankey",
+      "source": "data-aggregated",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "loser",
+            "gainer"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "movement",
+          "expr": "datum.loser+' → '+datum.gainer"
+        }
+      ]
+    },
+    {
+      "name": "data-sankey",
+      "source": "data-pairs-by-month-sankey",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "year(datum['__0__'])==2021?month(datum['__0__'])-10:month(datum['__0__'])+2",
+          "as": "period"
+        },
+        {
+          "type": "identifier",
+          "as": "__1__"
+        }
+      ]
+    },
+    {
+      "name": "data-sankey-losers",
+      "source": "data-sankey",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "loser"
+          ],
+          "fields": [
+            "loser"
+          ],
+          "ops": [
+            "max"
+          ],
+          "as": [
+            "unit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data-sankey-gainers",
+      "source": "data-sankey",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "gainer"
+          ],
+          "fields": [
+            "gainer"
+          ],
+          "ops": [
+            "max"
+          ],
+          "as": [
+            "unit"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data-nodes-stack",
+      "source": "data-sankey",
+      "transform": [
+        {
+          "type": "fold",
+          "fields": [
+            "loser",
+            "gainer"
+          ],
+          "as": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.key=='loser'?datum.loser+'-'+datum.gainer:datum.gainer+'-'+datum.loser",
+          "as": "link"
+        },
+        {
+          "type": "formula",
+          "as": "order",
+          "expr": "( datum.value=='Newcomer' || datum.value=='Left Company' ) ? 'Z' : split(datum.value,' ')[1]"
+        },
+        {
+          "type": "formula",
+          "as": "loser",
+          "expr": "datum.period==5&&datum.key=='gainer'?datum.gainer:datum.loser"
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "loser",
+            "period",
+            "key",
+            "value",
+            "order"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "period",
+            "key"
+          ],
+          "sort": {
+            "field": "order",
+            "order": "ascending"
+          },
+          "field": "count"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.key=='loser'"
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data-nodes",
+      "source": "data-sankey",
+      "transform": [
+        {
+          "type": "fold",
+          "fields": [
+            "loser",
+            "gainer"
+          ],
+          "as": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.key=='loser'?datum.loser+'-'+datum.gainer:datum.gainer+'-'+datum.loser",
+          "as": "link"
+        },
+        {
+          "type": "formula",
+          "as": "order",
+          "expr": "( datum.value=='Newcomer' || datum.value=='Left Company' ) ? 'Z' : split(datum.value,' ')[1]"
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "period",
+            "key"
+          ],
+          "sort": {
+            "field": "order",
+            "order": "ascending"
+          },
+          "field": "count"
+        },
+        {
+          "type": "lookup",
+          "from": "data-nodes-stack",
+          "key": "__0__",
+          "fields": [
+            "__0__"
+          ],
+          "values": [
+            "count"
+          ],
+          "as": [
+            "stack"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "20+(datum.value=='Newcomer'?(datum.y0-datum.stack-sankeyShift):datum.value=='Left Company'?(datum.y0+sankeyShift):datum.y0)",
+          "as": "y0"
+        },
+        {
+          "type": "formula",
+          "expr": "20+(datum.value=='Newcomer'?(datum.y1-datum.stack-sankeyShift):datum.value=='Left Company'?(datum.y1+sankeyShift):datum.y1)",
+          "as": "y1"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.y0+datum.y1)/2",
+          "as": "yc"
+        }
+      ]
+    },
+    {
+      "name": "data-nodes-grouped",
+      "source": "data-sankey",
+      "transform": [
+        {
+          "type": "fold",
+          "fields": [
+            "loser",
+            "gainer"
+          ],
+          "as": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "order",
+          "expr": "( datum.value=='Newcomer' || datum.value=='Left Company' ) ? 'Z' : split(datum.value,' ')[1]"
+        },
+        {
+          "type": "formula",
+          "as": "loser",
+          "expr": "datum.value=='Newcomer'?datum.loser:datum.value=='Left Company'?datum.gainer:(datum.period==5&&datum.key=='gainer')?datum.gainer:datum.loser"
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "__0__",
+            "loser",
+            "period",
+            "key",
+            "value",
+            "order"
+          ],
+          "fields": [
+            "count"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "count"
+          ]
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "period",
+            "key"
+          ],
+          "sort": {
+            "field": "order",
+            "order": "ascending"
+          },
+          "field": "count"
+        },
+        {
+          "type": "extent",
+          "field": "y1",
+          "signal": "extSank"
+        },
+        {
+          "type": "lookup",
+          "from": "data-nodes-stack",
+          "key": "__0__",
+          "fields": [
+            "__0__"
+          ],
+          "values": [
+            "count"
+          ],
+          "as": [
+            "stack"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "20+(datum.value=='Newcomer'?(datum.y0-datum.stack-sankeyShift):datum.value=='Left Company'?(datum.y0+sankeyShift):datum.y0)",
+          "as": "y0"
+        },
+        {
+          "type": "formula",
+          "expr": "20+(datum.value=='Newcomer'?(datum.y1-datum.stack-sankeyShift):datum.value=='Left Company'?(datum.y1+sankeyShift):datum.y1)",
+          "as": "y1"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.y0+datum.y1)/2",
+          "as": "yc"
+        }
+      ]
+    },
+    {
+      "name": "data-nodes-gainer",
+      "source": "data-nodes",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.key == 'gainer'"
+        }
+      ]
+    },
+    {
+      "name": "data-links",
+      "source": "data-nodes",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.key == 'loser'"
+        },
+        {
+          "type": "lookup",
+          "from": "data-nodes-gainer",
+          "key": "__1__",
+          "fields": [
+            "__1__"
+          ],
+          "as": [
+            "gainer"
+          ]
+        },
+        {
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": "diagonal",
+          "sourceX": {
+            "expr": "30+20+datum.period*sankeyMonthWidth+(datum.key=='loser'?20:0)"
+          },
+          "sourceY": {
+            "expr": "scale('scaleYSankey', datum.yc)"
+          },
+          "targetX": {
+            "expr": "30+(datum.period+1)*sankeyMonthWidth"
+          },
+          "targetY": {
+            "expr": "scale('scaleYSankey', datum.gainer.yc)"
+          }
+        },
+        {
+          "type": "formula",
+          "expr": "max(1,sankeyGroupHeight-scale('scaleYSankey', datum.count))",
+          "as": "strokeWidth"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.loser!==datum.gainer.gainer"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "scaleXSankey",
+      "type": "time",
+      "domain": {
+        "data": "data-aggregated",
+        "field": "__0__",
+        "sort": true
+      },
+      "range": [
+        {
+          "signal": "sankeyMonthWidth/2+sankeyMonthWidth*0.25+12"
+        },
+        {
+          "signal": "sankeyGroupWidth-sankeyMonthWidth/2-sankeyMonthWidth*0.25-8"
+        }
+      ]
+    },
+    {
+      "name": "scaleYSankey",
+      "type": "linear",
+      "domain": {
+        "data": "data-nodes",
+        "field": "y1"
+      },
+      "range": [
+        25,
+        {
+          "signal": "sankeyGroupHeight"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "name": "scaleOpacity",
+      "type": "pow",
+      "exponent": 2,
+      "domain": {
+        "data": "data-pairs",
+        "field": "value"
+      },
+      "range": [
+        0.45,
+        1
+      ]
+    }
+  ],
+  "title": {
+    "text": {
+      "signal": "'Transfers Between Departments'"
+    },
+    "anchor": "start",
+    "align": "left",
+    "frame": "group",
+    "dx": -10,
+    "dy": 30,
+    "subtitle": {
+      "signal": "'Excluding transfers within the same department'"
+    }
+  },
+  "axes": [
+    {
+      "scale": "scaleXSankey",
+      "orient": "bottom",
+      "domain": false,
+      "offset": 0,
+      "labelFontSize": 14,
+      "encode": {
+        "labels": {
+          "update": {
+            "text": {
+              "signal": "year(datum.value)+'-'+truncate(('0'+(month(datum.value)+1)),2,'left','')"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "rect-nodes",
+      "type": "rect",
+      "from": {
+        "data": "data-nodes-grouped"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "30+((datum.key=='gainer'?1:0)+datum.period)*sankeyMonthWidth"
+          },
+          "y": {
+            "signal": "scale('scaleYSankey',datum.y0)"
+          },
+          "y2": {
+            "signal": "(scale('scaleYSankey',datum.y0)-scale('scaleYSankey',datum.y1)<1?1:0)+scale('scaleYSankey',datum.y1)"
+          },
+          "stroke": {
+            "value": "white"
+          },
+          "strokeWidth": {
+            "value": 1.5
+          },
+          "opacity": {
+            "signal": "sankeyOpacity"
+          },
+          "fill": {
+            "signal": "datum.key=='gainer'?(datum.value=='Left Company'?colorLeft:stripe): datum.key=='loser'?(datum.value=='Newcomer'?colorNew:stripe): stripe"
+          },
+          "width": {
+            "signal": "datum.order=='Z' ? 40 :(datum.period==5 ? 40 : datum.period!=5&&datum.key=='loser' ? 40 : 0)"
+          },
+          "tooltip": {
+            "signal": "datum.value+': '+datum.count"
+          }
+        }
+      }
+    },
+    {
+      "name": "rule-axis-x",
+      "type": "rule",
+      "zindex": 20,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "0"
+          },
+          "x2": {
+            "signal": "sankeyGroupWidth"
+          },
+          "y": {
+            "value": "0",
+            "scale": "scaleYSankey",
+            "offset": -45
+          },
+          "y2": {
+            "value": "0",
+            "scale": "scaleYSankey",
+            "offset": -45
+          },
+          "strokeWidth": {
+            "signal": "0.5"
+          },
+          "stroke": {
+            "signal": "'grey'"
+          }
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "path-links",
+      "from": {
+        "data": "data-links"
+      },
+      "encode": {
+        "update": {
+          "path": {
+            "field": "path"
+          },
+          "stroke": [
+            {
+              "test": "datum.gainer.gainer=='Left Company'",
+              "signal": "colorLeft"
+            },
+            {
+              "test": "datum.loser=='Newcomer'",
+              "signal": "colorNew"
+            },
+            {
+              "signal": "colorNeutral"
+            }
+          ],
+          "strokeWidth": {
+            "field": "strokeWidth",
+            "offset": -1.5
+          },
+          "strokeOpacity": {
+            "signal": "sankeyOpacity"
+          },
+          "tooltip": {
+            "signal": "datum.movement+': '+datum.count"
+          },
+          "cursor": {
+            "value": "pointer"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "data-nodes-grouped"
+      },
+      "encode": {
+        "update": {
+          "text": {
+            "signal": "(scale('scaleYSankey', (datum.y1-datum.y0))>=10&&datum.period==0&&datum.key=='loser')?datum.loser!='Newcomer'?datum.loser+'-':'':''"
+          },
+          "x": {
+            "signal": "30"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2",
+            "scale": "scaleYSankey"
+          },
+          "fill": {
+            "signal": "colorLabels"
+          },
+          "fontSize": {
+            "signal": "12"
+          },
+          "align": {
+            "value": "right"
+          },
+          "baseline": {
+            "value": "middle"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "data-nodes-grouped"
+      },
+      "encode": {
+        "update": {
+          "text": {
+            "signal": "(scale('scaleYSankey', (datum.y1-datum.y0))>=10&&datum.period==5&&datum.key=='loser')?datum.loser!='Left Company'?'-'+datum.loser:'':''"
+          },
+          "x": {
+            "signal": "sankeyGroupWidth-30+5"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2",
+            "scale": "scaleYSankey"
+          },
+          "fill": {
+            "signal": "colorNeutral"
+          },
+          "fontSize": {
+            "signal": "12"
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          }
+        }
+      }
+    }
+  ]
+}
