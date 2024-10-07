@@ -2,7 +2,9 @@
 
 Data visualization templates for Deneb, a custom visual for Power BI. The templates are examples of Vega (not Vega-Lite) data visualizations that can be used in Deneb as is or as a starting point for developing more advanced custom data visualizations.
 
-The chart type selection for the templates is based on the [Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary).
+The chart type selection for the change-over-time, correlation, deviation, distribution, magnitude, part-to-whole, ranking, spatial templates is based on the [Financial Times Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary). These folders contain simple templates for various FT Visual Vocabulary chart types.
+
+[advanced-templates](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/advanced-templates) contains more advanced templates
 
 ## Working with Deneb Templates
 
@@ -97,5 +99,12 @@ Power BI report with example charts for all the templates: https://powerofbi.org
 [![image](https://github.com/avatorl/Deneb-Vega-Templates/assets/59934292/83a36f70-da2e-4579-8679-fb76223c9bb3)](https://github.com/avatorl/Deneb-Vega-Templates/blob/main/flow)
 
 ---
+
+## Advanced Templates
+
+## Sankey Diagram
+
+[![image](https://github.com/user-attachments/assets/d5c31a20-5ce9-4e9c-8833-66bdc7f8cec5)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/advanced-templates/hr-sankey)
+
 
 © Andrzej Leszkiewicz
