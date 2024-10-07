@@ -40,7 +40,7 @@ Examples of highly customized Vega data visualizations: https://github.com/avato
 
 If one of the templates really helped you (you have used the code for a commercial projects) or if you just want to say thank you, feel free to click the Sponsor button.
 
-## Chart Types / Deneb Templates in this Repository
+## FT Visual Vocabulary Templates
 
 Power BI report with example charts for all the templates: https://powerofbi.org/deneb-vega-templates/
 
@@ -102,7 +102,7 @@ Power BI report with example charts for all the templates: https://powerofbi.org
 
 ## Advanced Templates
 
-## Sankey Diagram
+### Sankey Diagram
 
 [![image](https://github.com/user-attachments/assets/d5c31a20-5ce9-4e9c-8833-66bdc7f8cec5)](https://github.com/avatorl/Deneb-Vega-Templates/tree/main/advanced-templates/hr-sankey)
 
