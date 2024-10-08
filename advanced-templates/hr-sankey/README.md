@@ -14,13 +14,16 @@ If needed then remove this filter:
         }
 ```
 from "data-links" table to enable paths for those who remained in the same department.
-Then edit "path-links" mark "stroke" by adding a test:
+Then edit "path-links" mark "stroke" properties by adding a test:
 ```
             {
               "test": "datum.loser==datum.gainer.gainer",
               "signal": "colorToDisplayPathsOfThoseWhoRemainedInTheSameDepartment"
             }
 ```
+If needed then edit "opacity" propery as well.
+
+It's just a template based on a specific use case. Feel free to modify final view of your chart.
 
 Complete dashboard that uses this Sankey diagram: https://powerofbi.org/hr
 
